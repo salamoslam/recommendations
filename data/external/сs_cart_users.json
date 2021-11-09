@@ -1,35 +1,9 @@
 [{
-  "_id": 11342,
-  "external_id": "000004575",
-  "status": "A",
-  "last_login": {
-    "$date": "2021-05-28T19:07:56Z"
-  },
-  "timestamp": {
-    "$date": "2021-05-28T19:07:56Z"
-  },
-  "firstname": "",
-  "lastname": "тимофей",
-  "phone": "",
-  "email": "tim@spin4spin.com",
-  "lang_code": "ru",
-  "user_update_prices_product": "N",
-  "pass_control": false,
-  "pass_email_control": false,
-  "pass_link_control": false,
-  "is_seller": false,
-  "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
-  "api_reward_pay_link": "",
-  "api_reward_total_purchase": "0",
-  "check_week": "Не заходил неделю",
-  "user_update_prices_pr": null
-},{
   "_id": 1,
   "external_id": "000003613",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T15:00:01Z"
+    "$date": "2021-11-08T10:00:01Z"
   },
   "timestamp": {
     "$date": "2019-12-06T14:45:05Z"
@@ -211,7 +185,7 @@
   "external_id": "000000599",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-27T15:30:01Z"
+    "$date": "2021-10-20T15:22:06Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -226,10 +200,10 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "83765",
+  "api_reward_purchase_card": "90765",
   "api_reward_level": "1",
   "api_reward_pay_link": "https://pd9.osmicards.com/7416G447IBXU",
-  "api_reward_total_purchase": "0",
+  "api_reward_total_purchase": "700",
   "check_week": "Заходил в течении недели",
   "user_update_prices_pr": null
 },{
@@ -408,7 +382,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "9000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -598,7 +572,7 @@
   "user_update_prices_pr": null
 },{
   "_id": 464,
-  "external_id": "000000035",
+  "external_id": "000004719",
   "status": "A",
   "last_login": {
     "$date": "2021-05-29T18:07:54Z"
@@ -606,9 +580,9 @@
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
   },
-  "firstname": "Тимофей ",
-  "lastname": "Шабанов ",
-  "phone": "79035371931",
+  "firstname": "Марк",
+  "lastname": "Медовой",
+  "phone": "79153363916",
   "email": "tima.shabanov@gmail.com",
   "lang_code": "ru",
   "user_update_prices_product": "N",
@@ -616,10 +590,10 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "46560",
-  "api_reward_level": "1",
-  "api_reward_pay_link": "https://pd9.osmicards.com/BA4ZVDN88XBH",
-  "api_reward_total_purchase": "5400",
+  "api_reward_purchase_card": "22500",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
   "user_update_prices_pr": null
 },{
@@ -627,7 +601,7 @@
   "external_id": "000000036",
   "status": "A",
   "last_login": {
-    "$date": "1970-01-01T03:00:00Z"
+    "$date": "2021-11-01T18:16:30Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -635,12 +609,12 @@
   "firstname": "Андрей Семенович",
   "lastname": "Закурский",
   "phone": "79099990207",
-  "email": "arie888@gmail.com",
+  "email": "arie888@mail.ru",
   "lang_code": "ru",
   "user_update_prices_product": "N",
-  "pass_control": false,
+  "pass_control": true,
   "pass_email_control": true,
-  "pass_link_control": false,
+  "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "0",
   "api_reward_level": "2",
@@ -679,7 +653,7 @@
   "external_id": "000000038",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-05T11:08:40Z"
+    "$date": "2021-10-29T17:58:15Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -694,7 +668,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "183700",
+  "api_reward_purchase_card": "246700",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -1199,7 +1173,7 @@
   "external_id": "000000129",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-30T19:14:09Z"
+    "$date": "2021-11-02T15:36:42Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1225,7 +1199,7 @@
   "external_id": "000000135",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-16T00:24:12Z"
+    "$date": "2021-10-24T20:31:26Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1433,7 +1407,7 @@
   "external_id": "000000187",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-22T14:56:55Z"
+    "$date": "2021-11-01T18:34:21Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1448,7 +1422,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "30000",
+  "api_reward_purchase_card": "55000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -1553,7 +1527,7 @@
   "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -1563,7 +1537,7 @@
   "external_id": "000000226",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-17T19:32:50Z"
+    "$date": "2021-11-02T12:07:24Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1797,7 +1771,7 @@
   "external_id": "000000326",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-17T00:22:49Z"
+    "$date": "2021-11-04T13:13:44Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1813,7 +1787,7 @@
   "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -1849,7 +1823,7 @@
   "external_id": "000000391",
   "status": "A",
   "last_login": {
-    "$date": "1970-01-01T03:00:00Z"
+    "$date": "2021-11-07T06:16:17Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -1860,15 +1834,15 @@
   "email": "itachi09@bk.ru",
   "lang_code": "ru",
   "user_update_prices_product": "N",
-  "pass_control": false,
+  "pass_control": true,
   "pass_email_control": true,
-  "pass_link_control": false,
+  "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "340000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
-  "check_week": "Не заходил неделю",
+  "check_week": "Заходил в течении недели",
   "user_update_prices_pr": null
 },{
   "_id": 513,
@@ -1979,7 +1953,7 @@
   "external_id": "tima.shabanov@mail.ru",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-29T14:40:00Z"
+    "$date": "2021-11-04T18:47:14Z"
   },
   "timestamp": {
     "$date": "2020-04-14T14:57:10Z"
@@ -2005,7 +1979,7 @@
   "external_id": "tima.shabanov@mail.ru",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-14T16:11:20Z"
+    "$date": "2021-10-27T18:36:17Z"
   },
   "timestamp": {
     "$date": "2020-04-21T17:40:45Z"
@@ -2291,7 +2265,7 @@
   "external_id": "000000256",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-30T20:40:04Z"
+    "$date": "2021-10-20T15:22:20Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -2306,10 +2280,10 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "181990",
+  "api_reward_purchase_card": "196990",
   "api_reward_level": "2",
   "api_reward_pay_link": "https://pd9.osmicards.com/MZ5NNVKW8B8E",
-  "api_reward_total_purchase": "450",
+  "api_reward_total_purchase": "1950",
   "check_week": "Не заходил неделю",
   "user_update_prices_pr": null
 },{
@@ -2369,7 +2343,7 @@
   "external_id": "000000600",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T14:54:13Z"
+    "$date": "2021-10-20T10:03:30Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -2982,7 +2956,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "1570500",
+  "api_reward_purchase_card": "1800500",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -5166,7 +5140,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "6000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -14433,7 +14407,7 @@
   "external_id": "000002661",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-15T14:59:51Z"
+    "$date": "2021-11-03T10:10:43Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -14448,8 +14422,8 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "212600",
-  "api_reward_level": "0",
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -15629,7 +15603,7 @@
   "external_id": "000003097",
   "status": "A",
   "last_login": {
-    "$date": "2021-08-25T14:27:30Z"
+    "$date": "2021-10-27T11:49:26Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -15785,7 +15759,7 @@
   "external_id": "000003168",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-13T18:21:15Z"
+    "$date": "2021-11-01T01:02:10Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -15800,7 +15774,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "140400",
+  "api_reward_purchase_card": "200400",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -15915,7 +15889,7 @@
   "external_id": "000003023",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-12T10:21:58Z"
+    "$date": "2021-11-06T01:01:20Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -23013,7 +22987,7 @@
   "external_id": "000003146",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-08T20:40:05Z"
+    "$date": "2021-10-23T12:17:17Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -23028,8 +23002,8 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "60000",
-  "api_reward_level": "0",
+  "api_reward_purchase_card": "147000",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -23782,7 +23756,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "18761",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23808,7 +23782,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "60575",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23860,7 +23834,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "18761",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23886,7 +23860,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "32173",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23912,7 +23886,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "46406",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23938,7 +23912,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "40573",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -23964,7 +23938,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "22275",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -24079,7 +24053,7 @@
   "external_id": "000003223",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-26T18:50:05Z"
+    "$date": "2021-11-06T21:48:54Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -24094,7 +24068,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "65636",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -24651,7 +24625,7 @@
   "external_id": "000003275",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-18T15:11:31Z"
+    "$date": "2021-10-21T10:06:32Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -24797,8 +24771,8 @@
   "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "132000",
-  "api_reward_level": "0",
-  "api_reward_pay_link": "",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "https://pd9.osmicards.com/W9WKTIJCW45O",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
   "user_update_prices_pr": null
@@ -24859,7 +24833,7 @@
   "external_id": "000003290",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-12T15:23:37Z"
+    "$date": "2021-11-06T22:54:55Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -24989,7 +24963,7 @@
   "external_id": "000003295",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-07T09:38:26Z"
+    "$date": "2021-10-21T22:18:46Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -25056,7 +25030,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "62703",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25082,7 +25056,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "14164",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25108,7 +25082,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "36851",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25134,7 +25108,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "433606",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25160,7 +25134,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "61285",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25186,7 +25160,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "35008",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25212,7 +25186,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "46518",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25238,7 +25212,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "25843",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25264,7 +25238,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "44303",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25290,7 +25264,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "54123",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25316,7 +25290,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "16797",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25342,7 +25316,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "11198",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25368,7 +25342,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "22396",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25394,7 +25368,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "30234",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25420,7 +25394,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "38819",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25446,7 +25420,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "67070",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25472,7 +25446,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "22865",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25498,7 +25472,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "47635",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25524,7 +25498,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "45729",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25550,7 +25524,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "84000",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25576,7 +25550,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "16386",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25602,7 +25576,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "20197",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25628,7 +25602,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "14481",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25654,7 +25628,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "59067",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25680,7 +25654,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "72943",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25706,7 +25680,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "116235",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25732,7 +25706,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "26805",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25758,7 +25732,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "39258",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25784,7 +25758,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "39258",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25810,7 +25784,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "19816",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25836,7 +25810,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "16892",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25862,7 +25836,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "15317",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25888,7 +25862,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "21444",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -25914,7 +25888,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "14814",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -27329,7 +27303,7 @@
   "external_id": "000003367",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-18T13:39:04Z"
+    "$date": "2021-10-22T14:23:23Z"
   },
   "timestamp": {
     "$date": "1970-01-01T03:00:00Z"
@@ -27979,7 +27953,7 @@
   "external_id": "000003421",
   "status": "A",
   "last_login": {
-    "$date": "2021-07-20T15:36:18Z"
+    "$date": "2021-10-31T01:03:46Z"
   },
   "timestamp": {
     "$date": "2020-11-28T14:57:32Z"
@@ -29253,7 +29227,7 @@
   "external_id": "000003523",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-03T23:22:07Z"
+    "$date": "2021-10-30T22:26:39Z"
   },
   "timestamp": {
     "$date": "2020-12-20T20:09:58Z"
@@ -30308,7 +30282,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "57500",
+  "api_reward_purchase_card": "82625",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -30464,10 +30438,10 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "1573700",
+  "api_reward_purchase_card": "1748700",
   "api_reward_level": "4",
   "api_reward_pay_link": "https://pd9.osmicards.com/CA1XTRYUA346",
-  "api_reward_total_purchase": "0",
+  "api_reward_total_purchase": "31750",
   "check_week": "Не заходил неделю",
   "user_update_prices_pr": null
 },{
@@ -30553,7 +30527,7 @@
   "external_id": "000003610",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-13T12:10:14Z"
+    "$date": "2021-10-26T14:20:11Z"
   },
   "timestamp": {
     "$date": "2021-01-05T19:20:00Z"
@@ -30605,7 +30579,7 @@
   "external_id": "000003635",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T11:21:31Z"
+    "$date": "2021-10-29T16:11:31Z"
   },
   "timestamp": {
     "$date": "2021-01-06T18:20:02Z"
@@ -31998,7 +31972,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "71400",
+  "api_reward_purchase_card": "101400",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -32016,7 +31990,7 @@
   },
   "firstname": "Главный",
   "lastname": "Администратор",
-  "phone": "555555555555",
+  "phone": "79779272006",
   "email": "info@spin4spin.com",
   "lang_code": "ru",
   "user_update_prices_product": "N",
@@ -33065,7 +33039,7 @@
   "pass_link_control": false,
   "is_seller": false,
   "api_reward_purchase_card": "47160",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -35233,14 +35207,14 @@
   "external_id": "000003819",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T11:07:52Z"
+    "$date": "2021-11-02T23:41:33Z"
   },
   "timestamp": {
     "$date": "2021-01-29T00:06:30Z"
   },
   "firstname": "Николай",
   "lastname": "Красавин",
-  "phone": "79262039696",
+  "phone": "89262039696",
   "email": "nikolay_k@inbox.ru",
   "lang_code": "ru",
   "user_update_prices_product": "",
@@ -35248,7 +35222,7 @@
   "pass_email_control": null,
   "pass_link_control": null,
   "is_seller": true,
-  "api_reward_purchase_card": "2796250",
+  "api_reward_purchase_card": "3432250",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -37484,7 +37458,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "74500",
+  "api_reward_purchase_card": "84100",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -37729,7 +37703,7 @@
   "external_id": "000003908",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-05T17:42:34Z"
+    "$date": "2021-10-25T13:52:57Z"
   },
   "timestamp": {
     "$date": "2021-02-08T21:10:47Z"
@@ -37737,12 +37711,12 @@
   "firstname": "Роман",
   "lastname": "Чавдаров",
   "phone": "79787703558",
-  "email": "roma-martini@mail.ru",
+  "email": "Roma-martini@mail.ru",
   "lang_code": "ru",
   "user_update_prices_product": "N",
-  "pass_control": true,
+  "pass_control": false,
   "pass_email_control": true,
-  "pass_link_control": true,
+  "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "0",
   "api_reward_level": "0",
@@ -37885,7 +37859,7 @@
   "external_id": "000003921",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-28T11:10:28Z"
+    "$date": "2021-10-26T10:47:47Z"
   },
   "timestamp": {
     "$date": "2021-02-09T14:00:28Z"
@@ -38509,7 +38483,7 @@
   "external_id": "000004466",
   "status": "A",
   "last_login": {
-    "$date": "2021-08-09T17:23:16Z"
+    "$date": "2021-10-26T08:51:42Z"
   },
   "timestamp": {
     "$date": "2021-02-10T16:25:14Z"
@@ -38528,7 +38502,7 @@
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
-  "check_week": "Не заходил неделю",
+  "check_week": "Заходил в течении недели",
   "user_update_prices_pr": null
 },{
   "_id": 11038,
@@ -38717,7 +38691,7 @@
   "external_id": "000000176",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-16T01:13:22Z"
+    "$date": "2021-10-26T23:07:38Z"
   },
   "timestamp": {
     "$date": "2021-02-11T20:01:02Z"
@@ -38732,7 +38706,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "42000",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -38743,7 +38717,7 @@
   "external_id": "000003790",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-16T01:27:15Z"
+    "$date": "2021-10-22T23:27:14Z"
   },
   "timestamp": {
     "$date": "2021-02-11T20:01:02Z"
@@ -39304,7 +39278,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "322192",
+  "api_reward_purchase_card": "322151",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -40656,7 +40630,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "45756",
+  "api_reward_purchase_card": "45719",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -40979,7 +40953,7 @@
   "external_id": "000004064",
   "status": "A",
   "last_login": {
-    "$date": "2021-07-09T17:02:31Z"
+    "$date": "2021-10-24T09:03:56Z"
   },
   "timestamp": {
     "$date": "2021-03-04T20:21:28Z"
@@ -41863,7 +41837,7 @@
   "external_id": "000004114",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-05T19:34:52Z"
+    "$date": "2021-11-05T16:12:21Z"
   },
   "timestamp": {
     "$date": "2021-03-14T13:04:14Z"
@@ -41941,7 +41915,7 @@
   "external_id": "000004143",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-11T16:09:44Z"
+    "$date": "2021-10-20T12:51:39Z"
   },
   "timestamp": {
     "$date": "2021-03-17T16:09:35Z"
@@ -42112,7 +42086,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "10000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -43074,7 +43048,7 @@
   "pass_email_control": null,
   "pass_link_control": null,
   "is_seller": false,
-  "api_reward_purchase_card": "122800",
+  "api_reward_purchase_card": "167800",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -43215,7 +43189,7 @@
   "external_id": "000004163",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-25T01:42:53Z"
+    "$date": "2021-11-01T02:12:12Z"
   },
   "timestamp": {
     "$date": "2021-03-29T17:49:55Z"
@@ -43241,7 +43215,7 @@
   "external_id": "000004214",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-15T14:02:03Z"
+    "$date": "2021-11-05T00:13:20Z"
   },
   "timestamp": {
     "$date": "2021-03-29T19:09:56Z"
@@ -43735,7 +43709,7 @@
   "external_id": "000004257",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-17T21:03:16Z"
+    "$date": "2021-11-01T13:39:42Z"
   },
   "timestamp": {
     "$date": "2021-04-07T16:50:58Z"
@@ -43943,7 +43917,7 @@
   "external_id": "000004265",
   "status": "A",
   "last_login": {
-    "$date": "2021-05-05T10:07:22Z"
+    "$date": "2021-11-01T08:49:02Z"
   },
   "timestamp": {
     "$date": "2021-04-09T19:18:16Z"
@@ -43959,7 +43933,7 @@
   "pass_link_control": false,
   "is_seller": false,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -44010,7 +43984,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "154000",
+  "api_reward_purchase_card": "182000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -44411,7 +44385,7 @@
   "external_id": "000004416",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-14T20:03:36Z"
+    "$date": "2021-10-19T22:45:31Z"
   },
   "timestamp": {
     "$date": "2021-04-15T14:54:30Z"
@@ -44634,7 +44608,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "55000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -44671,7 +44645,7 @@
   "external_id": "000004348",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T08:54:29Z"
+    "$date": "2021-11-07T20:29:34Z"
   },
   "timestamp": {
     "$date": "2021-04-20T16:57:18Z"
@@ -44834,7 +44808,7 @@
   },
   "firstname": "Денис",
   "lastname": "Имполитов",
-  "phone": "79162251908",
+  "phone": "9162251908",
   "email": "Chiqu@spin4spin.com",
   "lang_code": "ru",
   "user_update_prices_product": "N",
@@ -44853,7 +44827,7 @@
   "external_id": "000005068",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-08T21:04:11Z"
+    "$date": "2021-11-01T21:53:42Z"
   },
   "timestamp": {
     "$date": "2021-04-26T07:28:33Z"
@@ -44869,7 +44843,7 @@
   "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -44972,10 +44946,10 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "41900",
+  "api_reward_purchase_card": "46780",
   "api_reward_level": "1",
   "api_reward_pay_link": "https://pd9.osmicards.com/NJH08ZVS6JTV",
-  "api_reward_total_purchase": "0",
+  "api_reward_total_purchase": "488",
   "check_week": "Не заходил неделю",
   "user_update_prices_pr": null
 },{
@@ -44983,7 +44957,7 @@
   "external_id": "000004396",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-02T18:29:40Z"
+    "$date": "2021-11-04T22:16:33Z"
   },
   "timestamp": {
     "$date": "2021-04-28T08:18:08Z"
@@ -45061,7 +45035,7 @@
   "external_id": "000004392",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-08T10:24:36Z"
+    "$date": "2021-11-06T14:19:42Z"
   },
   "timestamp": {
     "$date": "2021-04-30T13:49:00Z"
@@ -45206,7 +45180,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "6400",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -45243,7 +45217,7 @@
   "external_id": "000004433",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-13T05:18:57Z"
+    "$date": "2021-10-25T11:58:35Z"
   },
   "timestamp": {
     "$date": "2021-05-03T12:10:17Z"
@@ -45466,7 +45440,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "8000",
+  "api_reward_purchase_card": "11800",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -45477,7 +45451,7 @@
   "external_id": "000004478",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-03T01:02:37Z"
+    "$date": "2021-11-01T19:54:52Z"
   },
   "timestamp": {
     "$date": "2021-05-11T19:59:56Z"
@@ -45815,7 +45789,7 @@
   "external_id": "000004572",
   "status": "A",
   "last_login": {
-    "$date": "2021-06-08T20:12:48Z"
+    "$date": "2021-10-21T04:54:40Z"
   },
   "timestamp": {
     "$date": "2021-05-26T22:33:07Z"
@@ -46101,7 +46075,7 @@
   "external_id": "000004611",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-14T12:01:43Z"
+    "$date": "2021-10-27T12:12:29Z"
   },
   "timestamp": {
     "$date": "2021-05-31T19:20:32Z"
@@ -46439,7 +46413,7 @@
   "external_id": "000004641",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-12T00:53:03Z"
+    "$date": "2021-11-08T01:14:13Z"
   },
   "timestamp": {
     "$date": "2021-06-05T16:19:58Z"
@@ -46491,7 +46465,7 @@
   "external_id": "000004493",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-28T17:38:53Z"
+    "$date": "2021-11-01T17:02:31Z"
   },
   "timestamp": {
     "$date": "2021-06-06T14:59:58Z"
@@ -47869,7 +47843,7 @@
   "external_id": "000005297",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-06T11:51:44Z"
+    "$date": "2021-10-25T23:56:09Z"
   },
   "timestamp": {
     "$date": "2021-06-27T11:32:50Z"
@@ -48196,7 +48170,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "54000",
+  "api_reward_purchase_card": "618510",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -48233,7 +48207,7 @@
   "external_id": "000004762",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-10T21:02:59Z"
+    "$date": "2021-10-23T19:57:09Z"
   },
   "timestamp": {
     "$date": "2021-07-04T13:32:22Z"
@@ -48301,7 +48275,7 @@
   "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -48404,7 +48378,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "76500",
+  "api_reward_purchase_card": "147847",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -48441,7 +48415,7 @@
   "external_id": "000002442",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-08T23:05:38Z"
+    "$date": "2021-11-01T17:08:58Z"
   },
   "timestamp": {
     "$date": "2021-07-12T16:45:04Z"
@@ -48571,7 +48545,7 @@
   "external_id": "000004857",
   "status": "A",
   "last_login": {
-    "$date": "2021-08-05T22:39:10Z"
+    "$date": "2021-11-02T15:49:55Z"
   },
   "timestamp": {
     "$date": "2021-07-15T22:00:23Z"
@@ -48961,7 +48935,7 @@
   "external_id": "000004912",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-16T16:02:16Z"
+    "$date": "2021-11-02T16:27:55Z"
   },
   "timestamp": {
     "$date": "2021-07-24T15:11:23Z"
@@ -48977,7 +48951,7 @@
   "pass_link_control": true,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -49003,7 +48977,7 @@
   "pass_link_control": null,
   "is_seller": false,
   "api_reward_purchase_card": "130000",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -49013,7 +48987,7 @@
   "external_id": "tima.shabanov@mail.ru",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-12T15:46:50Z"
+    "$date": "2021-11-07T20:51:23Z"
   },
   "timestamp": {
     "$date": "2021-07-26T14:26:01Z"
@@ -49091,15 +49065,15 @@
   "external_id": "tima.shabanov@mail.ru",
   "status": "A",
   "last_login": {
-    "$date": "2021-08-31T11:18:10Z"
+    "$date": "2021-11-02T18:16:06Z"
   },
   "timestamp": {
     "$date": "2021-07-28T14:47:18Z"
   },
-  "firstname": "Варя",
-  "lastname": "Гофман",
+  "firstname": "Вера",
+  "lastname": "Вундер",
   "phone": "",
-  "email": "vrgfmn@spin4spin.com",
+  "email": "veravunder@spin4spin.com",
   "lang_code": "ru",
   "user_update_prices_product": "N",
   "pass_control": false,
@@ -49195,7 +49169,7 @@
   "external_id": "000004945",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-16T13:05:17Z"
+    "$date": "2021-10-28T21:57:28Z"
   },
   "timestamp": {
     "$date": "2021-07-31T12:30:02Z"
@@ -49221,7 +49195,7 @@
   "external_id": "000004948",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-04T17:17:21Z"
+    "$date": "2021-10-30T23:27:06Z"
   },
   "timestamp": {
     "$date": "2021-07-31T14:00:07Z"
@@ -49470,7 +49444,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "63000",
+  "api_reward_purchase_card": "98000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -49574,7 +49548,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "96880",
+  "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -49585,7 +49559,7 @@
   "external_id": "tima.shabanov@mail.ru",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-21T13:49:02Z"
+    "$date": "2021-10-29T10:47:12Z"
   },
   "timestamp": {
     "$date": "2021-08-11T15:54:16Z"
@@ -49611,7 +49585,7 @@
   "external_id": "000005016",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-11T12:05:54Z"
+    "$date": "2021-11-04T13:35:27Z"
   },
   "timestamp": {
     "$date": "2021-08-13T14:01:01Z"
@@ -49897,7 +49871,7 @@
   "external_id": "000005059",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-03T15:52:38Z"
+    "$date": "2021-11-02T18:20:18Z"
   },
   "timestamp": {
     "$date": "2021-08-21T13:10:26Z"
@@ -50355,7 +50329,7 @@
   "pass_link_control": false,
   "is_seller": false,
   "api_reward_purchase_card": "40500",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -50625,7 +50599,7 @@
   "external_id": "000004872",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-01T12:32:23Z"
+    "$date": "2021-10-24T08:00:23Z"
   },
   "timestamp": {
     "$date": "2021-09-01T12:32:23Z"
@@ -50651,7 +50625,7 @@
   "external_id": "000005138",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-02T12:30:59Z"
+    "$date": "2021-10-25T14:38:41Z"
   },
   "timestamp": {
     "$date": "2021-09-02T17:50:05Z"
@@ -50986,24 +50960,24 @@
   "user_update_prices_pr": null
 },{
   "_id": 11539,
-  "external_id": "000005164",
+  "external_id": "000005404",
   "status": "A",
   "last_login": {
-    "$date": "1970-01-01T03:00:00Z"
+    "$date": "2021-10-25T21:03:07Z"
   },
   "timestamp": {
     "$date": "2021-09-07T04:33:54Z"
   },
-  "firstname": "Малиновский",
-  "lastname": "Сергей",
-  "phone": "79092615551",
+  "firstname": "Сергей",
+  "lastname": "Малиновский",
+  "phone": "9092615551",
   "email": "Sm9092615551@gmail.com",
   "lang_code": "ru",
   "user_update_prices_product": "N",
-  "pass_control": false,
-  "pass_email_control": false,
-  "pass_link_control": false,
-  "is_seller": false,
+  "pass_control": true,
+  "pass_email_control": true,
+  "pass_link_control": true,
+  "is_seller": true,
   "api_reward_purchase_card": "0",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
@@ -51041,7 +51015,7 @@
   "external_id": "000005260",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-05T13:06:03Z"
+    "$date": "2021-10-21T18:57:06Z"
   },
   "timestamp": {
     "$date": "2021-09-07T18:22:09Z"
@@ -51134,7 +51108,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "1528978",
+  "api_reward_purchase_card": "1598978",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -51197,7 +51171,7 @@
   "external_id": "000000171",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-15T14:42:47Z"
+    "$date": "2021-11-02T15:30:57Z"
   },
   "timestamp": {
     "$date": "2021-09-11T11:59:58Z"
@@ -51249,7 +51223,7 @@
   "external_id": "000004885",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-18T21:21:22Z"
+    "$date": "2021-11-07T19:30:32Z"
   },
   "timestamp": {
     "$date": "2021-09-12T19:40:48Z"
@@ -51264,7 +51238,7 @@
   "pass_email_control": true,
   "pass_link_control": true,
   "is_seller": true,
-  "api_reward_purchase_card": "35000",
+  "api_reward_purchase_card": "242000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -51317,7 +51291,7 @@
   "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -52564,7 +52538,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "101358",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -52679,7 +52653,7 @@
   "external_id": "000005209",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-26T00:19:34Z"
+    "$date": "2021-10-29T06:32:04Z"
   },
   "timestamp": {
     "$date": "2021-09-15T21:55:24Z"
@@ -52705,7 +52679,7 @@
   "external_id": "000005208",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-26T14:46:35Z"
+    "$date": "2021-10-21T13:24:19Z"
   },
   "timestamp": {
     "$date": "2021-09-15T22:01:32Z"
@@ -52835,7 +52809,7 @@
   "external_id": "000005232",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-15T17:59:09Z"
+    "$date": "2021-10-26T17:24:57Z"
   },
   "timestamp": {
     "$date": "2021-09-19T12:37:24Z"
@@ -52939,7 +52913,7 @@
   "external_id": "000005236",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-18T11:07:09Z"
+    "$date": "2021-10-26T23:39:49Z"
   },
   "timestamp": {
     "$date": "2021-09-19T18:07:30Z"
@@ -52955,7 +52929,7 @@
   "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -53069,7 +53043,7 @@
   "external_id": "000005243",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-05T00:12:14Z"
+    "$date": "2021-11-01T18:13:31Z"
   },
   "timestamp": {
     "$date": "2021-09-21T15:05:19Z"
@@ -53251,7 +53225,7 @@
   "external_id": "000005276",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-02T22:18:15Z"
+    "$date": "2021-11-08T01:15:14Z"
   },
   "timestamp": {
     "$date": "2021-09-25T15:20:22Z"
@@ -53277,7 +53251,7 @@
   "external_id": "000005277",
   "status": "A",
   "last_login": {
-    "$date": "1970-01-01T03:00:00Z"
+    "$date": "2021-10-26T01:38:45Z"
   },
   "timestamp": {
     "$date": "2021-09-25T16:39:57Z"
@@ -53371,7 +53345,7 @@
   "pass_link_control": false,
   "is_seller": true,
   "api_reward_purchase_card": "0",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Не заходил неделю",
@@ -53459,7 +53433,7 @@
   "external_id": "000005300",
   "status": "A",
   "last_login": {
-    "$date": "2021-09-28T03:37:31Z"
+    "$date": "2021-11-02T01:33:58Z"
   },
   "timestamp": {
     "$date": "2021-09-28T03:29:58Z"
@@ -53475,7 +53449,7 @@
   "pass_link_control": false,
   "is_seller": false,
   "api_reward_purchase_card": "15000",
-  "api_reward_level": "0",
+  "api_reward_level": "1",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
   "check_week": "Заходил в течении недели",
@@ -53552,7 +53526,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "5250",
+  "api_reward_purchase_card": "24750",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -53849,7 +53823,7 @@
   "external_id": "000005316",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-01T10:58:59Z"
+    "$date": "2021-10-31T21:40:32Z"
   },
   "timestamp": {
     "$date": "2021-10-01T08:28:42Z"
@@ -54525,7 +54499,7 @@
   "external_id": "000005360",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-17T15:48:08Z"
+    "$date": "2021-11-01T06:23:27Z"
   },
   "timestamp": {
     "$date": "2021-10-05T20:26:57Z"
@@ -54603,7 +54577,7 @@
   "external_id": "000005368",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-07T14:22:35Z"
+    "$date": "2021-10-20T17:19:09Z"
   },
   "timestamp": {
     "$date": "2021-10-06T20:42:02Z"
@@ -54830,7 +54804,7 @@
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
-  "check_week": "Не заходил неделю",
+  "check_week": "Заходил в течении недели",
   "user_update_prices_pr": null
 },{
   "_id": 11687,
@@ -54964,7 +54938,7 @@
   "user_update_prices_pr": null
 },{
   "_id": 11692,
-  "external_id": "",
+  "external_id": "000004719",
   "status": "A",
   "last_login": {
     "$date": "2021-10-08T18:29:29Z"
@@ -54972,17 +54946,17 @@
   "timestamp": {
     "$date": "2021-10-08T18:25:34Z"
   },
-  "firstname": "Tim",
-  "lastname": "Timsons",
-  "phone": "",
+  "firstname": "Марк",
+  "lastname": "Медовой",
+  "phone": "79153363916",
   "email": "tim@spin4spin.com",
-  "lang_code": "en",
+  "lang_code": "ru",
   "user_update_prices_product": "N",
   "pass_control": false,
-  "pass_email_control": false,
+  "pass_email_control": true,
   "pass_link_control": false,
-  "is_seller": false,
-  "api_reward_purchase_card": "0",
+  "is_seller": true,
+  "api_reward_purchase_card": "22500",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -55097,7 +55071,7 @@
   "external_id": "000005394",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-09T15:20:37Z"
+    "$date": "2021-11-01T21:07:16Z"
   },
   "timestamp": {
     "$date": "2021-10-09T15:20:37Z"
@@ -55554,7 +55528,7 @@
   "pass_email_control": false,
   "pass_link_control": false,
   "is_seller": false,
-  "api_reward_purchase_card": "64795",
+  "api_reward_purchase_card": "49795",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -55591,7 +55565,7 @@
   "external_id": "000005127",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-17T15:21:13Z"
+    "$date": "2021-10-22T11:27:17Z"
   },
   "timestamp": {
     "$date": "2021-10-17T15:09:59Z"
@@ -55736,7 +55710,7 @@
   "pass_email_control": true,
   "pass_link_control": false,
   "is_seller": true,
-  "api_reward_purchase_card": "0",
+  "api_reward_purchase_card": "35000",
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
@@ -55770,16 +55744,16 @@
   "user_update_prices_pr": null
 },{
   "_id": 11723,
-  "external_id": "",
+  "external_id": "000005460",
   "status": "A",
   "last_login": {
-    "$date": "1970-01-01T03:00:00Z"
+    "$date": "2021-10-20T03:14:06Z"
   },
   "timestamp": {
     "$date": "2021-10-19T00:14:57Z"
   },
-  "firstname": "Валентин",
-  "lastname": "Б",
+  "firstname": "Б",
+  "lastname": "Валентин",
   "phone": "79144067400",
   "email": "valentinkbx@gmail.com",
   "lang_code": "ru",
@@ -55792,11 +55766,11 @@
   "api_reward_level": "0",
   "api_reward_pay_link": "",
   "api_reward_total_purchase": "0",
-  "check_week": "Заходил в течении недели",
+  "check_week": "Не заходил неделю",
   "user_update_prices_pr": null
 },{
   "_id": 11724,
-  "external_id": "",
+  "external_id": "000005461",
   "status": "A",
   "last_login": {
     "$date": "2021-10-19T01:40:40Z"
@@ -55804,8 +55778,8 @@
   "timestamp": {
     "$date": "2021-10-19T01:40:40Z"
   },
-  "firstname": "Наталья",
-  "lastname": "",
+  "firstname": "",
+  "lastname": "Наталья",
   "phone": "",
   "email": "kireevanatalie@yandex.ru",
   "lang_code": "ru",
@@ -55848,18 +55822,4230 @@
   "user_update_prices_pr": null
 },{
   "_id": 11726,
-  "external_id": "",
+  "external_id": "000005462",
   "status": "A",
   "last_login": {
-    "$date": "2021-10-19T09:50:20Z"
+    "$date": "2021-10-30T11:14:41Z"
   },
   "timestamp": {
     "$date": "2021-10-19T09:50:20Z"
   },
-  "firstname": "Максим",
-  "lastname": "Усков",
+  "firstname": "Усков",
+  "lastname": "Максим",
   "phone": "79628985323",
   "email": "uskov.maks@rambler.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11727,
+  "external_id": "000005465",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-01T13:35:25Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-19T16:12:06Z"
+  },
+  "firstname": "Никита",
+  "lastname": "Грачев",
+  "phone": "9266653580",
+  "email": "grachevnikita@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11728,
+  "external_id": "000002472",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-19T16:42:27Z"
+  },
+  "firstname": "Лев",
+  "lastname": "Воид",
+  "phone": "79859116621",
+  "email": "holderlin@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11729,
+  "external_id": "000005468",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-19T18:48:17Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-19T18:48:17Z"
+  },
+  "firstname": "Кришнарадж",
+  "lastname": "Захар",
+  "phone": "",
+  "email": "zaharbq@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11730,
+  "external_id": "000005470",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-19T21:56:32Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-19T21:56:32Z"
+  },
+  "firstname": "Липенчук",
+  "lastname": "Дмитрий",
+  "phone": "79218756031",
+  "email": "dmitriy.lipenchuk.01@inbox.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11731,
+  "external_id": "000005473",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-20T14:45:33Z"
+  },
+  "firstname": "Рыжкова",
+  "lastname": "Евгения",
+  "phone": "79773591785",
+  "email": "Evgenia333@bk.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11732,
+  "external_id": "000005476",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-21T11:15:15Z"
+  },
+  "firstname": "Masse",
+  "lastname": "Marquis",
+  "phone": "17819909228",
+  "email": "Marquismasse12@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "21698",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11733,
+  "external_id": "000005477",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-21T14:29:52Z"
+  },
+  "firstname": "",
+  "lastname": "Илья",
+  "phone": "79629575691",
+  "email": "I.e.stemakh@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11734,
+  "external_id": "000005478",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-21T21:10:00Z"
+  },
+  "firstname": "Никита ",
+  "lastname": "Янин ",
+  "phone": "9296624711",
+  "email": "yaninnikita@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11735,
+  "external_id": "000005479",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-21T23:48:29Z"
+  },
+  "firstname": "Албычаков",
+  "lastname": "Владимир",
+  "phone": "79777289754",
+  "email": "avojos.ph@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11736,
+  "external_id": "000005480",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-22T14:59:44Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-22T14:59:44Z"
+  },
+  "firstname": "Тараненко",
+  "lastname": "Майя",
+  "phone": "",
+  "email": "mayya10501@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11737,
+  "external_id": "000005499",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-23T17:22:46Z"
+  },
+  "firstname": "Дьяченко",
+  "lastname": "Екатерина",
+  "phone": "79788886067",
+  "email": "katya.dyachenko@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "4741",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11738,
+  "external_id": "000005495",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-24T04:16:34Z"
+  },
+  "firstname": "Orion, Freeberg",
+  "lastname": "",
+  "phone": "",
+  "email": "dreamcorepro@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11739,
+  "external_id": "000005388",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-24T15:20:20Z"
+  },
+  "firstname": "Аслан ",
+  "lastname": "Измаилов ",
+  "phone": "9175217766",
+  "email": "izmaylovaslan@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11740,
+  "external_id": "000005498",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-24T15:50:09Z"
+  },
+  "firstname": "Федор",
+  "lastname": "Локшин",
+  "phone": "79254673020",
+  "email": "feudordrums@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "65000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11741,
+  "external_id": "000005503",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-24T16:20:06Z"
+  },
+  "firstname": "Глеб",
+  "lastname": "Михин",
+  "phone": "9261693238",
+  "email": "mikhingleb@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11742,
+  "external_id": "000005501",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-25T04:16:05Z"
+  },
+  "firstname": "Andy Hauer",
+  "lastname": "",
+  "phone": "",
+  "email": "andy_hauer@web.de",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11743,
+  "external_id": "000005557",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-03T15:42:31Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-26T20:52:04Z"
+  },
+  "firstname": "Никита ",
+  "lastname": "Хьюго ",
+  "phone": "9252004493",
+  "email": "zharinovn@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": true,
+  "pass_email_control": true,
+  "pass_link_control": true,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11744,
+  "external_id": "000005516",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-26T21:29:09Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-26T21:29:09Z"
+  },
+  "firstname": "Озеров",
+  "lastname": "Степан",
+  "phone": "79857480282",
+  "email": "osa1mgmt@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11745,
+  "external_id": "000005517",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-27T13:21:44Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-27T13:21:44Z"
+  },
+  "firstname": "Nat",
+  "lastname": "Nat",
+  "phone": "",
+  "email": "glam1209@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11746,
+  "external_id": "000005523",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-28T06:23:20Z"
+  },
+  "firstname": "Han",
+  "lastname": "Rob",
+  "phone": "18182793342",
+  "email": "robsghan@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "62192",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11747,
+  "external_id": "000005524",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-28T16:16:25Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-28T13:53:50Z"
+  },
+  "firstname": "Василий ",
+  "lastname": "Горелов ",
+  "phone": "9167533006",
+  "email": "vassili.gorelov@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": true,
+  "pass_email_control": true,
+  "pass_link_control": true,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11748,
+  "external_id": "000005530",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-28T15:13:47Z"
+  },
+  "firstname": "Максим",
+  "lastname": "Дмитриев",
+  "phone": "9000129816",
+  "email": "dmitr.maxim61@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11749,
+  "external_id": "000005531",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-28T17:03:36Z"
+  },
+  "firstname": "Даниил",
+  "lastname": "Бумагин",
+  "phone": "79273844881",
+  "email": "whitepunk666@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "40000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11750,
+  "external_id": "000005533",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-29T02:57:30Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-29T02:57:30Z"
+  },
+  "firstname": "Knyazev",
+  "lastname": "Evgeny",
+  "phone": "79052766333",
+  "email": "jeneo@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "",
+  "pass_control": null,
+  "pass_email_control": null,
+  "pass_link_control": null,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11751,
+  "external_id": "000005522",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-29T04:16:34Z"
+  },
+  "firstname": "Ruxin Sun",
+  "lastname": "",
+  "phone": "",
+  "email": "jxding19@163.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11752,
+  "external_id": "000005542",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-30T14:55:30Z"
+  },
+  "firstname": "Даниела ",
+  "lastname": "Иванова",
+  "phone": "9104394560",
+  "email": "ivnvdn@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11753,
+  "external_id": "000005543",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-30T15:24:45Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-30T15:24:45Z"
+  },
+  "firstname": "Никуленко",
+  "lastname": "Филипп",
+  "phone": "",
+  "email": "Filipp05@inbox.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11754,
+  "external_id": "000005544",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-30T15:44:38Z"
+  },
+  "firstname": "Бахарева",
+  "lastname": "Полина",
+  "phone": "79213098390",
+  "email": "polinabakhareva16@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "12000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11755,
+  "external_id": "000005549",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-31T11:25:17Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-31T11:25:17Z"
+  },
+  "firstname": "Захаревский",
+  "lastname": "Алексей",
+  "phone": "37529660984",
+  "email": "a.zaharevski@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11756,
+  "external_id": "000005551",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-31T15:13:58Z"
+  },
+  "firstname": "Бодров",
+  "lastname": "Александр",
+  "phone": "79169296687",
+  "email": "sanya.bodrov123@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "6000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11757,
+  "external_id": "000005415",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-31T16:20:02Z"
+  },
+  "firstname": "Татьяна",
+  "lastname": "Денисова",
+  "phone": "89262458707",
+  "email": "ddeenniissoovvaayyaa@gmail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11758,
+  "external_id": "000005553",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-10-31T20:03:33Z"
+  },
+  "timestamp": {
+    "$date": "2021-10-31T20:03:33Z"
+  },
+  "firstname": "Красненкова",
+  "lastname": "Соня",
+  "phone": "79264702704",
+  "email": "sonrars@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11759,
+  "external_id": "000005554",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-01T04:16:57Z"
+  },
+  "firstname": "Artem",
+  "lastname": "Petrov",
+  "phone": "89130638115",
+  "email": "petrovaf@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11760,
+  "external_id": "000005561",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-01T22:38:39Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-01T15:45:23Z"
+  },
+  "firstname": "Тарануха",
+  "lastname": "Евгений",
+  "phone": "79037197119",
+  "email": "eugene.taranukha@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11761,
+  "external_id": "000005555",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Arnoldo Ortiz",
+  "lastname": "",
+  "phone": "",
+  "email": "dabean101@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11762,
+  "external_id": "000005562",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Marcus Banks",
+  "lastname": "",
+  "phone": "",
+  "email": "younghova5522@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11763,
+  "external_id": "000005563",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Alex Trimble",
+  "lastname": "",
+  "phone": "",
+  "email": "alextrimble@me.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11764,
+  "external_id": "000005564",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Vik Mohindra",
+  "lastname": "",
+  "phone": "",
+  "email": "vmohindr@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11765,
+  "external_id": "000005565",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jonathan Rodriguez",
+  "lastname": "",
+  "phone": "",
+  "email": "jrodplaycod@yahoo.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11766,
+  "external_id": "000005566",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Wenwei Li",
+  "lastname": "",
+  "phone": "",
+  "email": "Ginkaba@outlook.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11767,
+  "external_id": "000005567",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Rafferty Robert",
+  "lastname": "",
+  "phone": "",
+  "email": "adioryou@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11768,
+  "external_id": "000005568",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Lukas, Walter",
+  "lastname": "",
+  "phone": "",
+  "email": "lukaswalter2551@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11769,
+  "external_id": "000005569",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "henryk lobaczewski",
+  "lastname": "",
+  "phone": "",
+  "email": "henryk.designer@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11770,
+  "external_id": "000005570",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Home",
+  "lastname": "",
+  "phone": "",
+  "email": "mitch_103@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11771,
+  "external_id": "000005571",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Ercan Cairns",
+  "lastname": "",
+  "phone": "",
+  "email": "ercancairns@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11772,
+  "external_id": "000005572",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Максим Сафин",
+  "lastname": "",
+  "phone": "",
+  "email": "platonbarneo@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11773,
+  "external_id": "000005573",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Hsu-Ting Kao",
+  "lastname": "",
+  "phone": "",
+  "email": "joshhsu85367@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11774,
+  "external_id": "000005574",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Sukhan Sandhu",
+  "lastname": "",
+  "phone": "",
+  "email": "djsukhan@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11775,
+  "external_id": "000005575",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Diego, Munoz",
+  "lastname": "",
+  "phone": "",
+  "email": "diegomunoz4432@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11776,
+  "external_id": "000005576",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Santiago Hurtado",
+  "lastname": "",
+  "phone": "",
+  "email": "santiagohurtado13@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11777,
+  "external_id": "000005577",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Ryan Wilson",
+  "lastname": "",
+  "phone": "",
+  "email": "ryanwilson18@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11778,
+  "external_id": "000005578",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jake Gershenson",
+  "lastname": "",
+  "phone": "",
+  "email": "JJGersh@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11779,
+  "external_id": "000005579",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Faisal",
+  "lastname": "",
+  "phone": "",
+  "email": "Faisalburesli@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11780,
+  "external_id": "000005580",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Randall, Chin",
+  "lastname": "",
+  "phone": "",
+  "email": "randy172032@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11781,
+  "external_id": "000005581",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Patrick Blanc",
+  "lastname": "",
+  "phone": "",
+  "email": "pblanc1988@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11782,
+  "external_id": "000005582",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Yang Shen",
+  "lastname": "",
+  "phone": "",
+  "email": "abcd12345rx@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11783,
+  "external_id": "000005583",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Gary  Feldman",
+  "lastname": "",
+  "phone": "",
+  "email": "garyfeldman416@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11784,
+  "external_id": "000005584",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Gilbert  Buchanan",
+  "lastname": "",
+  "phone": "",
+  "email": "gb.tweet@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11785,
+  "external_id": "000005585",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Gammel Kongevej",
+  "lastname": "",
+  "phone": "",
+  "email": "axel-ross@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11786,
+  "external_id": "000005586",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jonathan Gans",
+  "lastname": "",
+  "phone": "",
+  "email": "jon@ironwoodpartners.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11787,
+  "external_id": "000005587",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jonathan Kwok",
+  "lastname": "",
+  "phone": "",
+  "email": "jsckwok@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11788,
+  "external_id": "000005588",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Derrail, Lattimore",
+  "lastname": "",
+  "phone": "",
+  "email": "littlederrail@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11789,
+  "external_id": "000005589",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "anita yang",
+  "lastname": "",
+  "phone": "",
+  "email": "dbabysh@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11790,
+  "external_id": "000005590",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Minji Park",
+  "lastname": "",
+  "phone": "",
+  "email": "alswlrrkd@naver.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11791,
+  "external_id": "000005591",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Johan Regnet",
+  "lastname": "",
+  "phone": "",
+  "email": "nippe@me.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11792,
+  "external_id": "000005592",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Xingbin Zhao",
+  "lastname": "",
+  "phone": "",
+  "email": "santakris@163.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11793,
+  "external_id": "000005593",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "John, Collins",
+  "lastname": "",
+  "phone": "",
+  "email": "collinstransportationinc@yahoo.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11794,
+  "external_id": "000005594",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Alex Shen",
+  "lastname": "",
+  "phone": "",
+  "email": "307160493@qq.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11795,
+  "external_id": "000005595",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "cameron, gilliard",
+  "lastname": "",
+  "phone": "",
+  "email": "camerongilliard26@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11796,
+  "external_id": "000005596",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Andrew",
+  "lastname": "",
+  "phone": "",
+  "email": "03consumed@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11797,
+  "external_id": "000005597",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Tal Amar",
+  "lastname": "",
+  "phone": "",
+  "email": "Alentim69@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11798,
+  "external_id": "000005598",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Nebojsa Pavicevic",
+  "lastname": "",
+  "phone": "",
+  "email": "NEBO@HOLYGREENS.SE",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11799,
+  "external_id": "000005599",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "ron latour",
+  "lastname": "",
+  "phone": "",
+  "email": "cardobathgate@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11800,
+  "external_id": "000005600",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "arun gupta",
+  "lastname": "",
+  "phone": "",
+  "email": "ajustrun@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11801,
+  "external_id": "000005601",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Valentino Caponi",
+  "lastname": "",
+  "phone": "",
+  "email": "javitosanchez@live.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11802,
+  "external_id": "000005602",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Lin Yichuan",
+  "lastname": "",
+  "phone": "",
+  "email": "lucyferain@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11803,
+  "external_id": "000005603",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Reilly Parker",
+  "lastname": "",
+  "phone": "",
+  "email": "reillydparker@yahoo.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11804,
+  "external_id": "000005604",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "william, nelson",
+  "lastname": "",
+  "phone": "",
+  "email": "wkn226@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11805,
+  "external_id": "000005605",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Patrick Moore",
+  "lastname": "",
+  "phone": "",
+  "email": "trick815@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11806,
+  "external_id": "000005606",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Adam, Knight",
+  "lastname": "",
+  "phone": "",
+  "email": "adamsknight99@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11807,
+  "external_id": "000005607",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Nick Combs",
+  "lastname": "",
+  "phone": "",
+  "email": "nickcombs17@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11808,
+  "external_id": "000005608",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Torii Wolf",
+  "lastname": "",
+  "phone": "",
+  "email": "torirogg@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11809,
+  "external_id": "000005609",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Triston, Neighbors",
+  "lastname": "",
+  "phone": "",
+  "email": "modernconfidence@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11810,
+  "external_id": "000005610",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "thy, nguyen",
+  "lastname": "",
+  "phone": "",
+  "email": "dieutnguyen0509@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11811,
+  "external_id": "000005611",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Maria, Lopez",
+  "lastname": "",
+  "phone": "",
+  "email": "lopez.895@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11812,
+  "external_id": "000005612",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Huw Mccarthy",
+  "lastname": "",
+  "phone": "",
+  "email": "huw.mccarthy@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11813,
+  "external_id": "000005613",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Malanda Williame",
+  "lastname": "",
+  "phone": "",
+  "email": "tresor509@outlook.fr",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11814,
+  "external_id": "000005614",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Thy, Riedel",
+  "lastname": "",
+  "phone": "",
+  "email": "track06@aol.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11815,
+  "external_id": "000005615",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "aristides nunez FC 06005",
+  "lastname": "",
+  "phone": "",
+  "email": "aristidescuentas01@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11816,
+  "external_id": "000005616",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Kai Huang",
+  "lastname": "",
+  "phone": "",
+  "email": "keith.s.huang@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11817,
+  "external_id": "000005617",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Egor, Antonov",
+  "lastname": "",
+  "phone": "",
+  "email": "eavenned@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11818,
+  "external_id": "000005618",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Shaman",
+  "lastname": "",
+  "phone": "",
+  "email": "shamanhpdking@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11819,
+  "external_id": "000005619",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "alexander, cassini",
+  "lastname": "",
+  "phone": "",
+  "email": "luckyleone@mac.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11820,
+  "external_id": "000005620",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jaeyoon Song",
+  "lastname": "",
+  "phone": "",
+  "email": "jaeyoonsong96@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11821,
+  "external_id": "000005621",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Elias Contreras",
+  "lastname": "",
+  "phone": "",
+  "email": "econtreras.ieu2019@student.ie.edu",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11822,
+  "external_id": "000005622",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Tom Blain",
+  "lastname": "",
+  "phone": "",
+  "email": "tomblain55@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11823,
+  "external_id": "000005623",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Travis, Garrett",
+  "lastname": "",
+  "phone": "",
+  "email": "tgarrett24@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11824,
+  "external_id": "000005624",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "brian, ray",
+  "lastname": "",
+  "phone": "",
+  "email": "brianrayedit@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11825,
+  "external_id": "000005625",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Nick, Laufenberg",
+  "lastname": "",
+  "phone": "",
+  "email": "wideout-117@outlook.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11826,
+  "external_id": "000005626",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Jean Paul Sayegh",
+  "lastname": "",
+  "phone": "",
+  "email": "jpsayegh15@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11827,
+  "external_id": "000005627",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Hung, Hoang",
+  "lastname": "",
+  "phone": "",
+  "email": "hoangbenhoang@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11828,
+  "external_id": "000005628",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Yoeri Roest",
+  "lastname": "",
+  "phone": "",
+  "email": "Yoeri@Yoursmanagement.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11829,
+  "external_id": "000005629",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "yangyun 杨鋆",
+  "lastname": "",
+  "phone": "",
+  "email": "ValoraYoung@163.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11830,
+  "external_id": "000005630",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Kyle Naicker",
+  "lastname": "",
+  "phone": "",
+  "email": "jasminvalentina95@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11831,
+  "external_id": "000005631",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Vitalii Likhanskyi",
+  "lastname": "",
+  "phone": "",
+  "email": "vitaliyvamp@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11832,
+  "external_id": "000005632",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Max, Siskin",
+  "lastname": "",
+  "phone": "",
+  "email": "msisk7@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11833,
+  "external_id": "000005633",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "VINAYAK LOYALKA",
+  "lastname": "",
+  "phone": "",
+  "email": "valoyal@yahoo.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11834,
+  "external_id": "000005634",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Nadeem, Kandalaft",
+  "lastname": "",
+  "phone": "",
+  "email": "nkandalaft13@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11835,
+  "external_id": "000005635",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "James Whitmire",
+  "lastname": "",
+  "phone": "",
+  "email": "jameswhitmire08@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11836,
+  "external_id": "000005636",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "alex melkoumov",
+  "lastname": "",
+  "phone": "",
+  "email": "melkumovalex1@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11837,
+  "external_id": "000005637",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Carl, Counts",
+  "lastname": "",
+  "phone": "",
+  "email": "carlcounts@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11838,
+  "external_id": "000005638",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "timur, ozkose",
+  "lastname": "",
+  "phone": "",
+  "email": "timozkose@icloud.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11839,
+  "external_id": "000005639",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Ferdinand, Sabala",
+  "lastname": "",
+  "phone": "",
+  "email": "fsabala@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11840,
+  "external_id": "000005640",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Paul Grailed Jeffries",
+  "lastname": "",
+  "phone": "",
+  "email": "pd48@pauljeffries.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11841,
+  "external_id": "000005641",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Fabio Burmann",
+  "lastname": "",
+  "phone": "",
+  "email": "fabioburmannsnkrs@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11842,
+  "external_id": "000005642",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Rain, Drooker",
+  "lastname": "",
+  "phone": "",
+  "email": "raindrooker@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11843,
+  "external_id": "000005645",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Артем",
+  "lastname": "Воробьев",
+  "phone": "79043510051",
+  "email": "vorob20066@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11844,
+  "external_id": "000005646",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Елизавета",
+  "lastname": "Аккуратнова",
+  "phone": "89037172860",
+  "email": "Lisaakkuratnova@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11845,
+  "external_id": "000005647",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T04:16:16Z"
+  },
+  "firstname": "Noah, Lee",
+  "lastname": "",
+  "phone": "",
+  "email": "noahjungkillee@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11846,
+  "external_id": "000005653",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-03T07:11:26Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T17:09:20Z"
+  },
+  "firstname": "Макаренко",
+  "lastname": "Дмитрий",
+  "phone": "79090440808",
+  "email": "pianisst1@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "42000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11847,
+  "external_id": "000005654",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-03T12:59:34Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T17:51:20Z"
+  },
+  "firstname": "Евграфова",
+  "lastname": "Софья",
+  "phone": "79250745818",
+  "email": "sonyaevgrafova@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "26250",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11848,
+  "external_id": "000005657",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T19:49:56Z"
+  },
+  "firstname": "Артемий",
+  "lastname": "Скопин",
+  "phone": "9229258587",
+  "email": "artemiyskopin@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11849,
+  "external_id": "000005660",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-02T23:17:31Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-02T23:17:31Z"
+  },
+  "firstname": "Дубских",
+  "lastname": "Антон",
+  "phone": "79154684846",
+  "email": "dubskih.ant@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11850,
+  "external_id": "000005661",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T00:56:58Z"
+  },
+  "firstname": "Малинин",
+  "lastname": "Геннадий",
+  "phone": "79257171746",
+  "email": "gennadii.malinin@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11851,
+  "external_id": "000005648",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T04:16:41Z"
+  },
+  "firstname": "Александр",
+  "lastname": "Ягмуров",
+  "phone": "89153025162",
+  "email": "yagmurov.alex@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11852,
+  "external_id": "000005649",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T04:16:41Z"
+  },
+  "firstname": "максим",
+  "lastname": "андронов",
+  "phone": "79776221765",
+  "email": "dyubanka@bk.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11853,
+  "external_id": "000005655",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T04:16:41Z"
+  },
+  "firstname": "Георгий",
+  "lastname": "Келлерман",
+  "phone": "89152173600",
+  "email": "elkel27@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11854,
+  "external_id": "000005656",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T04:16:41Z"
+  },
+  "firstname": "Elias Wirkkala Westlund",
+  "lastname": "",
+  "phone": "",
+  "email": "elias.wirkkala.westlund@outlook.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11855,
+  "external_id": "000005664",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T15:31:12Z"
+  },
+  "firstname": "Чурсин",
+  "lastname": "Антон",
+  "phone": "79160996309",
+  "email": "mr.antonchursin2016@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11856,
+  "external_id": "000005665",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-03T16:24:21Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T16:24:21Z"
+  },
+  "firstname": "Сидоров",
+  "lastname": "Дмитрий",
+  "phone": "79376016978",
+  "email": "d.simka@list.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11857,
+  "external_id": "000005668",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-03T23:47:17Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-03T19:26:19Z"
+  },
+  "firstname": "Марченко",
+  "lastname": "Екатерина",
+  "phone": "79169983371",
+  "email": "katyamarch@46gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11858,
+  "external_id": "000005669",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-04T00:51:31Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T00:49:46Z"
+  },
+  "firstname": "Saprygin",
+  "lastname": "Vladimir",
+  "phone": "",
+  "email": "vl.saprygin@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "",
+  "pass_control": null,
+  "pass_email_control": null,
+  "pass_link_control": null,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11859,
+  "external_id": "000005670",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-04T02:40:32Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T02:40:32Z"
+  },
+  "firstname": "Харламов",
+  "lastname": "Артур",
+  "phone": "79268682959",
+  "email": "arturharlamov@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11860,
+  "external_id": "000005666",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T04:18:25Z"
+  },
+  "firstname": "Kyle Delos Santos",
+  "lastname": "",
+  "phone": "",
+  "email": "k.dlosmash@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11861,
+  "external_id": "000005667",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T04:18:25Z"
+  },
+  "firstname": "Екатерина",
+  "lastname": "Екатерина",
+  "phone": "89169983371",
+  "email": "katyamarch46@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11862,
+  "external_id": "000005673",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-04T07:38:54Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T07:38:54Z"
+  },
+  "firstname": "Сорокин",
+  "lastname": "Алексей",
+  "phone": "79990382928",
+  "email": "snottocky@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "",
+  "pass_control": null,
+  "pass_email_control": null,
+  "pass_link_control": null,
+  "is_seller": false,
+  "api_reward_purchase_card": "10000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11863,
+  "external_id": "000005674",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-06T13:45:26Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T14:38:28Z"
+  },
+  "firstname": "Армен",
+  "lastname": "Джавадов",
+  "phone": "9257777718",
+  "email": "6439979@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11864,
+  "external_id": "000005675",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T14:58:18Z"
+  },
+  "firstname": "Сергей ",
+  "lastname": "Терновский",
+  "phone": "9992130401",
+  "email": "ternowski321@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": true,
+  "pass_link_control": false,
+  "is_seller": true,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11865,
+  "external_id": "000005677",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-04T16:47:53Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T16:47:53Z"
+  },
+  "firstname": "Мольков",
+  "lastname": "Илья",
+  "phone": "79175987683",
+  "email": "molkovilya@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11866,
+  "external_id": "000005680",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-04T19:09:18Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-04T19:09:18Z"
+  },
+  "firstname": "Салахутдинов",
+  "lastname": "Артур",
+  "phone": "79827509723",
+  "email": "artursalakh@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "6300",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11867,
+  "external_id": "000005671",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T04:16:32Z"
+  },
+  "firstname": "Kevin Yang",
+  "lastname": "",
+  "phone": "",
+  "email": "kevin@yangfamily.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "27650",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11868,
+  "external_id": "000005672",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T04:16:32Z"
+  },
+  "firstname": "Natasha Mazur",
+  "lastname": "",
+  "phone": "",
+  "email": "fulla.fawadi@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "13825",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11869,
+  "external_id": "000005676",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T04:16:32Z"
+  },
+  "firstname": "Керим",
+  "lastname": "Karaev",
+  "phone": "89254444008",
+  "email": "kerimkaraev@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11870,
+  "external_id": "000005678",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T04:16:32Z"
+  },
+  "firstname": "Tomei Gloria- Tipografia Veneta",
+  "lastname": "",
+  "phone": "",
+  "email": "alberto.faveropd@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "48339",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11871,
+  "external_id": "000005679",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T04:16:32Z"
+  },
+  "firstname": "Mack kra",
+  "lastname": "",
+  "phone": "",
+  "email": "just_mikii@hotmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "33128",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11872,
+  "external_id": "000005681",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-05T12:35:58Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T12:35:58Z"
+  },
+  "firstname": "Помыканов",
+  "lastname": "Даниил",
+  "phone": "",
+  "email": "pomykanovdaniil@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11873,
+  "external_id": "000005684",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-07T12:03:11Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-05T15:10:03Z"
+  },
+  "firstname": "Марич",
+  "lastname": "Кирилл",
+  "phone": "79031839372",
+  "email": "kmarich@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "10000",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11874,
+  "external_id": "000005685",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-06T04:16:22Z"
+  },
+  "firstname": "Виктория",
+  "lastname": "Королева",
+  "phone": "89774255661",
+  "email": "unangelaimait@yahoo.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11875,
+  "external_id": "000005689",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-06T16:01:50Z"
+  },
+  "firstname": "Indenbaum",
+  "lastname": "Eva",
+  "phone": "79161554030",
+  "email": "Evainden@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11876,
+  "external_id": "000005694",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T00:55:22Z"
+  },
+  "firstname": "Чернова",
+  "lastname": "Дарья",
+  "phone": "79154776099",
+  "email": "dasha.chernova.06@list.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11877,
+  "external_id": "000005686",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T04:16:28Z"
+  },
+  "firstname": "Марина",
+  "lastname": "Шалупа",
+  "phone": "89771298559",
+  "email": "maryaha1988@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "1",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11878,
+  "external_id": "000005690",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T04:16:28Z"
+  },
+  "firstname": "Jeremy Tan",
+  "lastname": "",
+  "phone": "",
+  "email": "morningpoison@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11879,
+  "external_id": "000005691",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T04:16:28Z"
+  },
+  "firstname": "Jakob, Johnson",
+  "lastname": "",
+  "phone": "",
+  "email": "dandebjake@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11880,
+  "external_id": "000005692",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T04:16:28Z"
+  },
+  "firstname": "Michael Jason Wilkins",
+  "lastname": "",
+  "phone": "",
+  "email": "mwilkins066@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Не заходил неделю",
+  "user_update_prices_pr": null
+},{
+  "_id": 11881,
+  "external_id": "000004929",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T07:03:09Z"
+  },
+  "firstname": "Андрей",
+  "lastname": "Гутров",
+  "phone": "89778291354",
+  "email": "gutrov2000@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "750",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11882,
+  "external_id": "000005695",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T10:50:51Z"
+  },
+  "firstname": "",
+  "lastname": "",
+  "phone": "",
+  "email": "Koshelkorp@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11883,
+  "external_id": "000005696",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-07T17:17:54Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T17:16:00Z"
+  },
+  "firstname": "Плохотников",
+  "lastname": "Вадим",
+  "phone": "79169678763",
+  "email": "Minishowtv@mail.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11884,
+  "external_id": "000005697",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T19:14:25Z"
+  },
+  "firstname": "Северянини",
+  "lastname": "Роман",
+  "phone": "79777721749",
+  "email": "gonzharovroman@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11885,
+  "external_id": "000005698",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T20:12:04Z"
+  },
+  "firstname": "Davydov",
+  "lastname": "Andrey",
+  "phone": "79199626800",
+  "email": "vanilinn@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11886,
+  "external_id": "000005699",
+  "status": "A",
+  "last_login": {
+    "$date": "2021-11-07T20:44:51Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T20:44:51Z"
+  },
+  "firstname": "Etörnal",
+  "lastname": "Roman",
+  "phone": "79631590838",
+  "email": "romazitcev@gmail.com",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11887,
+  "external_id": "000005700",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T21:30:09Z"
+  },
+  "firstname": "Лобурцев",
+  "lastname": "Игорь",
+  "phone": "79312449629",
+  "email": "Gosha.rabinovich@yandex.ru",
+  "lang_code": "ru",
+  "user_update_prices_product": "N",
+  "pass_control": false,
+  "pass_email_control": false,
+  "pass_link_control": false,
+  "is_seller": false,
+  "api_reward_purchase_card": "0",
+  "api_reward_level": "0",
+  "api_reward_pay_link": "",
+  "api_reward_total_purchase": "0",
+  "check_week": "Заходил в течении недели",
+  "user_update_prices_pr": null
+},{
+  "_id": 11888,
+  "external_id": "000005701",
+  "status": "A",
+  "last_login": {
+    "$date": "1970-01-01T03:00:00Z"
+  },
+  "timestamp": {
+    "$date": "2021-11-07T22:19:59Z"
+  },
+  "firstname": "Османов",
+  "lastname": "Сергей",
+  "phone": "79676713713",
+  "email": "black.red69@mail.ru",
   "lang_code": "ru",
   "user_update_prices_product": "N",
   "pass_control": false,
