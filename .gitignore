@@ -87,3 +87,7 @@ target/
 
 # Mypy cache
 .mypy_cache/
+/src/data/make_goods_info_table.py
+/src/data/mongo_pass.rtf
+/src/data/mongodb_pass.txt
+/src/data/ftp_creds.txt
