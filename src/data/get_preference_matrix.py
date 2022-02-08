@@ -4,11 +4,14 @@ import os
 import datetime
 
 path_to_repo = '/Users/kuznetsovnikita'
+
+
 def get_pref_matrix(to_csv = True,
                     path_to_repo='/Users/kuznetsovnikita',
                     heat_param = 1,
                     cart_param = 10,
-                    wish_param = 5):
+                    wish_param = 5,
+                    days_back = 0):
     "делает матрицу предпочтений, если to_csv = True, запихивает csv с этой таблицей в data-interim\
     можно задать параметры предпочтений и путь до локального репозитория"
 
@@ -19,6 +22,13 @@ def get_pref_matrix(to_csv = True,
     cart = pd.read_csv(import_path+'cart.csv', sep = ',',converters={'product_id':str})
     users = pd.read_csv(import_path+'users.csv')
     vygruz = pd.read_excel(import_path+'goods.xlsx').iloc[:,1:]
+
+    # задаю время взятия данных
+    cart.timestamp = pd.to_datetime(cart.timestamp, format='%Y-%m-%d %H:%M:%S')
+    cart = cart.loc[cart.timestamp < datetime.datetime.now() - datetime.timedelta(days=days_back)]
+
+    df_heat.timestamp = pd.to_datetime(df_heat.timestamp, format='%Y-%m-%d %H:%M:%S')
+    df_heat = df_heat.loc[df_heat.timestamp < datetime.datetime.now() - datetime.timedelta(days=days_back)]
 
     cart['product_id'] = cart['product_id'].replace('', np.nan, regex=False).astype(float)
     vygruz.cumdate = pd.to_datetime(vygruz.cumdate, infer_datetime_format=True)

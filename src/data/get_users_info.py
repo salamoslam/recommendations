@@ -55,6 +55,7 @@ def get_users_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'):
     users_info['products_quan'] = \
     df_heat.loc[~df_heat.product_id.isin([0, '0', ''])].groupby('ym_client_id').agg({'product_id': [list, 'count']})[
         'product_id']['count']
+    users_info['products_quan'] = users_info.products_quan.fillna(0)
     # добавления в корзину
     users_info['carts'] = cart_full.loc[(~cart_full.ym_client_id.isin(['null', '', '0'])) & (cart_full.type == 'C')
                                         ].groupby('ym_client_id').agg({'product_id': [list, 'count']})['product_id'][
@@ -63,6 +64,7 @@ def get_users_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'):
     users_info['carts_quan'] = cart_full.loc[(~cart_full.ym_client_id.isin(['null', '', '0'])) & (cart_full.type == 'C')
                                              ].groupby('ym_client_id').agg({'product_id': [list, 'count']})[
         'product_id']['count']
+    users_info['carts_quan'] = users_info.carts_quan.fillna(0)
 
     # добавления в вишлист
     users_info['wish'] = cart_full.loc[(~cart_full.ym_client_id.isin(['null', '', '0'])) & (cart_full.type == 'W')
@@ -72,7 +74,7 @@ def get_users_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'):
     users_info['wish_quan'] = cart_full.loc[(~cart_full.ym_client_id.isin(['null', '', '0'])) & (cart_full.type == 'W')
                                             ].groupby('ym_client_id').agg({'product_id': [list, 'count']})[
         'product_id']['count']
-
+    users_info['wish_quan'] = users_info.wish_quan.fillna(0)
     if to_csv:
         users_info.to_csv(os.path.join(export_path,r'users_info.csv'))
-    return users_info, cart_full
+    return users_info
