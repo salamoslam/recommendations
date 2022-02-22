@@ -114,14 +114,17 @@ def get_pref_matrix(to_csv = True,
         cols.extend(comb)
         brand_categ = user_product_heat.T.merge(vygruz.loc[:, cols], how='left', left_on=user_product_heat.T.index,
                                                 right_on='id_s')
-        stock = vygruz.loc[vygruz.reason == 'Приемка'].groupby(comb)['id_s'].count()
+        stock = vygruz.loc[vygruz.reason == 'Приемка'].groupby(comb).agg({'id_s': ['count', list]})
 
         dict_combs[num] = brand_categ.groupby(comb).sum()
         dict_combs[num] = dict_combs[num].join(stock)
+
+        dict_combs[num].rename(columns={('id_s', 'count'): 'id_s', ('id_s', 'list'): 'id_list'}, inplace=True)
+
         dict_combs[num] = dict_combs[num].loc[~((dict_combs[num].id_s.isna()) | (dict_combs[num].id_s == 1))]
 
-        dict_combs[num].loc['user_total'] = dict_combs[num].drop(columns=['id_s']).sum(axis=0)
-        dict_combs[num].loc[:, ['item_total']] = dict_combs[num].drop(columns=['id_s']).sum(axis=1)
+        dict_combs[num].loc['user_total'] = dict_combs[num].drop(columns=['id_s', 'id_list']).sum(axis=0)
+        dict_combs[num].loc[:, ['item_total']] = dict_combs[num].drop(columns=['id_s', 'id_list']).sum(axis=1)
     #     dict_combs[tuple(comb)].append(dict_combs[tuple(comb)].sum(numeric_only=True), ignore_index=True)
 
     # print(dict_combs[4])
