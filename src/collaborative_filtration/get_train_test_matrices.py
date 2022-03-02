@@ -1,6 +1,6 @@
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, '../src/data')
+sys.path.insert(1, '/Users/kuznetsovnikita/recommendations/src/data')
 
 from get_users_info import *
 from get_brand_category_info import *
@@ -19,7 +19,7 @@ def cut_user_item(item_user, threshold = 3):
     return user_item_cut
 
 
-def get_old_user_item(user_item, days_back=7, threshold=3):
+def get_old_user_item(user_item_cut, days_back=7, threshold=3):
     "достает юзер-айтем на days_back дней назад и обрезает ее до заданного числа активностей, по сути это почти трейн"
     # подгружаем старую юзер-айтем
     item_user_old = get_pref_matrix(to_csv=False, days_back=days_back)
