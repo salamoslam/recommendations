@@ -7,6 +7,8 @@ import certifi
 import json
 import csv
 import io
+from pathlib import Path
+import sys
 from urllib.parse import unquote
 
 application = Flask(__name__)
@@ -14,10 +16,10 @@ application = Flask(__name__)
 
 # создадим пул штрихкодов по брендам+категориям, которые будем получать для каждого client_id
 
-
-path_to_repo = '/Users/kuznetsovnikita'
-
-path2 = 'mongodb://shmzl:1tAiGCElvXSHXex1@cluster0-shard-00-00.vs2je.mongodb.net:27017,cluster0-shard-00-01.vs2je.mongodb.net:27017,cluster0-shard-00-02.vs2je.mongodb.net:27017/test?authSource=admin&replicaSet=atlas-16vb3u-shard-0&readPreference=primary&ssl=true'
+path = Path(sys.path[0])
+path_to_repo = str(path.parent.parent.absolute())
+with open(path_to_repo+'/src/data/mongodb_pass.txt', 'r') as file:
+    path2 = file.read()
 client = MongoClient(path2, tlsCAFile=certifi.where())
 current_db = client['spin_services']
 
