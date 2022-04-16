@@ -11,7 +11,8 @@ def get_pref_matrix(to_csv = True,
                     heat_param = 1,
                     cart_param = 10,
                     wish_param = 5,
-                    days_back = 0):
+                    days_back = 0,
+                    grouped = True):
     "делает матрицу предпочтений, если to_csv = True, запихивает csv с этой таблицей в data-interim\
     можно задать параметры предпочтений и путь до локального репозитория"
 
@@ -130,7 +131,10 @@ def get_pref_matrix(to_csv = True,
     # print(dict_combs[4])
     if to_csv:
         dict_combs[4].to_csv(os.path.join(export_path,'user_group_info.csv'))
-    return dict_combs[4]
+    if grouped:
+        return dict_combs[4]
+    else:
+        return user_product_heat
 
 
 

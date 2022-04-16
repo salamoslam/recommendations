@@ -1,9 +1,9 @@
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, '/Users/kuznetsovnikita/recommendations/src/data')
+sys.path.append('/src/data')
 
-from get_users_info import *
-from get_brand_category_info import *
+# from src.data.get_users_info import *
+# from src.data.get_brand_category_info import *
 from get_preference_matrix import *
 import pandas as pd
 
@@ -19,24 +19,27 @@ def cut_user_item(item_user, threshold = 3):
     return user_item_cut
 
 
-def get_old_user_item(user_item_cut, days_back=7, threshold=3):
+def get_old_user_item(user_item_cut, days_back=7, threshold=3, grouped = True):
     "достает юзер-айтем на days_back дней назад и обрезает ее до заданного числа активностей, по сути это почти трейн"
     # подгружаем старую юзер-айтем
-    item_user_old = get_pref_matrix(to_csv=False, days_back=days_back)
-
-    user_item_old = item_user_old.T
-    user_item_old = user_item_old.drop(index=['id_s', 'id_list', 'item_total'], columns=['user_total'])
+    item_user_old = get_pref_matrix(to_csv=False, days_back=days_back, grouped=grouped)
+    user_item_old = item_user_old
+    if grouped:
+        user_item_old = user_item_old.drop(columns=['id_s', 'id_list', 'item_total'], index=['user_total']).T
 
     # обрезаем неактивных чуваков
     user_item_old_cut = cut_user_item(item_user=user_item_old.T, threshold=threshold)
-
+    new_index = user_item_old_cut.index
     # добавляем возможно новые появившиеся категории и заполняем нулями
     user_item_old_cut = user_item_old_cut.reindex(columns=user_item_cut.columns, fill_value=0)
+    #     if not grouped:
+    user_item_old_cut.index = new_index
     return user_item_old_cut
 
 def get_binarized_differences(user_item_cut, user_item_old_cut, do_first = 'binarize'):
     "трейн выборка для первой метрики: те, у кого разность между бинаризованными векторами предпочтений ненулевая \
     или бинаризованная разность ненулевая"
+
     assert do_first in ['binarize','subtract']
     user_item_diff = pd.DataFrame(columns=user_item_cut.columns)
     users_with_new_prefs = []

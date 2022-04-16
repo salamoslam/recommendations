@@ -16,8 +16,7 @@ def precision_at_k(user_item_diff: pd.DataFrame,
     predict_exact = user_dict[user]['recommends']
 
     compared = pd.DataFrame([target_bin,
-                             user_item_cut.loc[user]
-                                ,
+                             user_item_cut.loc[user],
                              user_dict[user]['preferred_binary'],
                              predict_exact], index=['fut', 'pref_exact', 'prev', 'predict_exact']).T
     compared.loc[:, 'target_exact_new'] = np.where(compared.prev == 0, compared.pref_exact, 0)

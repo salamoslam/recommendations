@@ -2,9 +2,9 @@ import sys
 # insert at 1, 0 is the script path (or '' in REPL)
 sys.path.insert(1, '../src/data')
 
-from get_users_info import *
-from get_brand_category_info import *
-from get_preference_matrix import *
+# from get_users_info import *
+# from get_brand_category_info import *
+# from get_preference_matrix import *
 import implicit
 import faiss
 from tqdm import tqdm
@@ -20,9 +20,9 @@ def take(n, iterable):
     "Return first n items of the iterable as a list"
     return list(islice(iterable, n))
 
-def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, method='faiss'):
+def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, method='faiss', inference = False):
     'берет на вход датафрейм с накликавшими пользователями (cf-able), каждому из них ищет k соседей\
-     на основе metric и выдает рекоммендации, user_..index определяет пользователей для генерации рекомендаций'
+     на основе metric и выдает рекомендации, user_..index определяет пользователей для генерации рекомендаций'
     # создаю индекс длиной числа брендов-категорий
     # добавляю туда все вектора по юзерам
     user_item_cut_normalized = user_item_cut.div(user_item_cut.sum(axis=1), axis=0)
@@ -42,7 +42,7 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             if str(user_item_array.flags)[17:22] == 'False':
                 user_item_array = user_item_array.copy(order='C')
                 user_item_array_test = user_item_array_test.copy(order='C')
-            index.add(user_item_array)
+#             index.add(user_item_array)
         elif metric == 'cosine':
             index = faiss.IndexFlatIP(user_item_cut.shape[1], )
             user_item_array = np.array(user_item_train_norm).astype('float32')
@@ -51,6 +51,10 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             if str(user_item_array.flags)[17:22] == 'False':
                 user_item_array = user_item_array.copy(order='C')
                 user_item_array_test = user_item_array_test.copy(order='C')
+#             index.add(user_item_array)
+        if inference:
+            index.add(user_item_array_test)
+        else:
             index.add(user_item_array)
 
         user_dict = {}
@@ -66,7 +70,6 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             # оставляю только соседей
             ind_reshape = ind.reshape((k,))
             #         ind_reshape = ind_reshape[ind_reshape != searched_user_index]
-
             # нахожу соседей в юзер-айтем матрице, оставляю только столбы с ненулевыми элементами
             found_neighbours = user_item_cut.iloc[ind_reshape, :]
             #             if metric == 'cosine':
