@@ -1,7 +1,11 @@
 import sys
-sys.path.append(sys.path[1] +'/src/data')
-sys.path.append(sys.path[1] +'/src/collaborative_filtration')
-sys.path.append(sys.path[1] +'/src/database_inference')
+from pathlib import Path
+rec_path = str(Path(sys.path[0]).parent.parent.absolute())
+sys.path.append(rec_path +'/src/data')
+
+sys.path.append(rec_path +'/src/data')
+sys.path.append(rec_path +'/src/collaborative_filtration')
+sys.path.append(rec_path +'/src/database_inference')
 from get_tables import *
 from get_preference_matrix import *
 from get_train_test_matrices import *

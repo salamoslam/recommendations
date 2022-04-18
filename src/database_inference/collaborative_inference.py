@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 import sys
-print(sys.path)
 sys.path.append(sys.path[1] +'/src/data')
 from get_popular_items import *
 
