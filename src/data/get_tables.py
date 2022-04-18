@@ -29,10 +29,10 @@ pd.DataFrame(heats).to_csv(os.path.join(path,r'heats.csv'))
 pd.DataFrame(cart).to_csv(os.path.join(path,r'cart.csv'))
 pd.DataFrame(users).to_csv(os.path.join(path,r'users.csv'))
 
-if datetime.datetime.now().hour < 11:
-    now = datetime.datetime.now()- datetime.timedelta(days=1) # если ошибка вечернего времени (обновляется только в 7 утра)
+if datetime.now().hour < 11:
+    now = datetime.now()- timedelta(days=1) # если ошибка вечернего времени (обновляется только в 7 утра)
 else:
-    now = datetime.datetime.now()
+    now = datetime.now()
 # прописываем данные для доступа
 with open(path_to_repo+'/ftp_creds.txt', 'r') as ftp:
     lines = ftp.readlines()
