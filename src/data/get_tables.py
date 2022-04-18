@@ -4,14 +4,15 @@ from datetime import datetime, timedelta
 import pandas as pd
 import certifi
 import os
-
+from pathlib import Path
+import sys
 
 with open('mongodb_pass.txt', 'r') as file:
     path2 = file.read()
 # print(path2)
 
-
-path_to_repo = '/Users/kuznetsovnikita' #здесь можно указать путь до папки, где лежит репозиторий
+path_ = Path(sys.path[0])
+path_to_repo = str(path_.parent.parent.parent.absolute()) #здесь можно указать путь до папки, где лежит репозиторий
 path = path_to_repo + '/recommendations/data/raw'
 
 
