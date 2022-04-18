@@ -64,7 +64,7 @@ with open(local_file_name, 'wb') as local_file_name:
 # закрываем соединение
 ftp.close()
 
-vygruz = pd.read_excel('/Users/kuznetsovnikita/recommendations/data/raw/goods.xlsx',
+vygruz = pd.read_excel(os.path.join(path,r'goods.xlsx'),
                        converters={'Штрихкод': str})
 vygruz = vygruz.drop_duplicates(subset='Штрихкод')
 new_names = {'Штрихкод': 'id',
