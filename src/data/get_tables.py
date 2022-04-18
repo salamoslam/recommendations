@@ -7,14 +7,14 @@ import os
 from pathlib import Path
 import sys
 
-with open('mongodb_pass.txt', 'r') as file:
-    path2 = file.read()
-# print(path2)
 
 path_ = Path(sys.path[0])
 path_to_repo = str(path_.parent.parent.parent.absolute()) #здесь можно указать путь до папки, где лежит репозиторий
 path = path_to_repo + '/recommendations/data/raw'
 
+with open(path_to_repo+'/mongodb_pass.txt', 'r') as file:
+    path2 = file.read()
+# print(path2)
 
 client = MongoClient(path2, tlsCAFile=certifi.where())
 current_db = client['spin_services']
@@ -32,7 +32,7 @@ pd.DataFrame(users).to_csv(os.path.join(path,r'users.csv'))
 now = datetime.now()\
       # - datetime.timedelta(days=1) # если ошибка вечернего времени (обновляется только в 7 утра)
 # прописываем данные для доступа
-with open('ftp_creds.txt', 'r') as ftp:
+with open(path_to_repo+'/ftp_creds.txt', 'r') as ftp:
     lines = ftp.readlines()
 
 lines = [line.replace(' ', '').rstrip() for line in lines]
