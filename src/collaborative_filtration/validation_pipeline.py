@@ -1,6 +1,6 @@
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, '../src/data')
+sys.path.append(sys.path[1] +'/src/collaborative_filtration')
 import pandas as pd
 from sklearn.metrics import precision_score
 import numpy as np

@@ -1,10 +1,11 @@
 import sys
-# insert at 1, 0 is the script path (or '' in REPL)
-sys.path.append('/src/data')
+import os.path
+
+sys.path.append(sys.path[1] + '/src/data')
 
 # from src.data.get_users_info import *
 # from src.data.get_brand_category_info import *
-from src.data.get_preference_matrix import *
+from get_preference_matrix import *
 import pandas as pd
 
 def cut_user_item(item_user, threshold = 3):

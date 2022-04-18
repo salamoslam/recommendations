@@ -1,12 +1,12 @@
 import sys
-sys.path.insert(1, '../src/data')
-sys.path.append('../src/collaborative_filtration')
-sys.path.append('../src/database_inference')
-from src.data.get_tables import *
-from src.data.get_preference_matrix import *
-from src.collaborative_filtration.get_train_test_matrices import *
-from src.collaborative_filtration.nearest_neighbours import *
-from src.database_inference.collaborative_inference import *
+sys.path.append(sys.path[1] +'/src/data')
+sys.path.append(sys.path[1] +'/src/collaborative_filtration')
+sys.path.append(sys.path[1] +'/src/database_inference')
+from get_tables import *
+from get_preference_matrix import *
+from get_train_test_matrices import *
+from nearest_neighbours import *
+from collaborative_inference import *
 from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore")
