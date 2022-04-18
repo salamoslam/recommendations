@@ -4,7 +4,7 @@ sys.path.append('/src/data')
 
 # from src.data.get_users_info import *
 # from src.data.get_brand_category_info import *
-from get_preference_matrix import *
+from src.data.get_preference_matrix import *
 import pandas as pd
 
 def cut_user_item(item_user, threshold = 3):

@@ -11,9 +11,11 @@ from pathlib import Path
 import warnings
 warnings.filterwarnings("ignore")
 
+path = Path(sys.path[0])
+path_to_repo = str(path.parent.parent.parent.absolute())
+# path_to_repo = '/Users/kuznetsovnikita'
 
-
-pref_matrix = get_pref_matrix(to_csv=False)
+pref_matrix = get_pref_matrix(path_to_repo= path_to_repo, to_csv=False)
 item_user = pref_matrix.drop(columns=['id_s','id_list','item_total'], index = ['user_total'])
 
 user_item_cut = cut_user_item(item_user)
@@ -28,11 +30,8 @@ user_dict_ = recommend_NN(user_item_cut=user_item_cut,
 id_dict = pref_matrix.id_list.drop(index='user_total').to_dict()
 
 # подрубаемся к базе и запихиваем туда рекомендации
-path = Path(sys.path[0])
-path_to_repo = str(path.parent.parent.absolute())
-# path_to_repo = '/Users/kuznetsovnikita/recommendations'
 
-with open(path_to_repo+'/src/data/mongodb_pass.txt', 'r') as file:
+with open(path_to_repo+'/mongodb_pass.txt', 'r') as file:
     path2 = file.read()
 
 client = MongoClient(path2,  tlsCAFile=certifi.where())
