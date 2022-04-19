@@ -25,11 +25,15 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
      на основе metric и выдает рекомендации, user_..index определяет пользователей для генерации рекомендаций'
     # создаю индекс длиной числа брендов-категорий
     # добавляю туда все вектора по юзерам
-    user_item_cut_normalized = user_item_cut.div(user_item_cut.sum(axis=1), axis=0)
-    user_item_train = user_item_cut.loc[~user_item_cut.index.isin(user_item_cut_index)]
-    user_item_test = user_item_cut.loc[user_item_cut.index.isin(user_item_cut_index)]
-    user_item_train_norm = user_item_cut_normalized.loc[~user_item_cut_normalized.index.isin(user_item_cut_index)]
-    user_item_test_norm = user_item_cut_normalized.loc[user_item_cut_normalized.index.isin(user_item_cut_index)]
+    if method == 'faiss':
+        if metric == 'euclid':
+            user_item_train = user_item_cut.loc[~user_item_cut.index.isin(user_item_cut_index)]
+            user_item_test = user_item_cut.loc[user_item_cut.index.isin(user_item_cut_index)]
+        elif metric == 'cosine':
+            user_item_cut_normalized = user_item_cut.div(user_item_cut.sum(axis=1), axis=0)
+            user_item_train_norm = user_item_cut_normalized.loc[~user_item_cut_normalized.index.isin(user_item_cut_index)]
+            user_item_test_norm = user_item_cut_normalized.loc[user_item_cut_normalized.index.isin(user_item_cut_index)]
+            del user_item_cut_normalized
 
     if method == 'faiss':
 
@@ -39,7 +43,7 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             user_item_array = np.array(user_item_train).astype('float32')
             user_item_array_test = np.array(user_item_test).astype('float32')
 
-            if str(user_item_array.flags)[17:22] == 'False':
+            if str(user_item_array.flags)[17:22] == 'False' or str(user_item_array_test.flags)[17:22] == 'False':
                 user_item_array = user_item_array.copy(order='C')
                 user_item_array_test = user_item_array_test.copy(order='C')
 #             index.add(user_item_array)
@@ -48,7 +52,7 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             user_item_array = np.array(user_item_train_norm).astype('float32')
             user_item_array_test = np.array(user_item_test_norm).astype('float32')
 
-            if str(user_item_array.flags)[17:22] == 'False':
+            if str(user_item_array.flags)[17:22] == 'False' or str(user_item_array_test.flags)[17:22] == 'False':
                 user_item_array = user_item_array.copy(order='C')
                 user_item_array_test = user_item_array_test.copy(order='C')
 #             index.add(user_item_array)

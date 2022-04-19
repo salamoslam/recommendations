@@ -13,16 +13,31 @@ from nearest_neighbours import *
 from collaborative_inference import *
 from pathlib import Path
 import warnings
+import os
 warnings.filterwarnings("ignore")
 
 path = Path(sys.path[0])
 path_to_repo = str(path.parent.parent.parent.absolute())
 # path_to_repo = '/Users/kuznetsovnikita'
+path_ = path_to_repo + '/recommendations/data/interim'
+path__ = path_to_repo + '/recommendations/data/raw'
+# pref_matrix = get_pref_matrix(path_to_repo= path_to_repo, to_csv=False)
 
-pref_matrix = get_pref_matrix(path_to_repo= path_to_repo, to_csv=False)
-item_user = pref_matrix.drop(columns=['id_s','id_list','item_total'], index = ['user_total'])
+vygruz = pd.read_excel(os.path.join(path__, 'goods.xlsx'))
+vygruz = vygruz.loc[vygruz.id != '']
+vygruz = vygruz.loc[~vygruz.id.isnull()]
+vygruz = vygruz[vygruz['id'].str.isnumeric()]
+vygruz['id'] = vygruz.id.replace('', np.nan, regex=False).astype(int)
+vygruz.loc[:, 'id_s'] = vygruz.id.astype(str)
+stock = vygruz.loc[vygruz.reason == 'Приемка'].groupby(['brand','Группа категорий']).agg({'id_s': list})
+stock.loc[:,'brand_categ'] = [str(i) for i in stock.index]
+stock.set_index('brand_categ', inplace=True)
+id_dict = stock.to_dict()['id_s']
 
-user_item_cut = cut_user_item(item_user)
+pref_matrix = pd.read_csv(os.path.join(path_,'user_group_info.csv'))
+# item_user = pref_matrix.drop(columns=['id_s','id_list','item_total'], index = ['user_total'])
+
+user_item_cut = cut_user_item(pref_matrix.set_index('ym_client_id').T)
 
 user_dict_ = recommend_NN(user_item_cut=user_item_cut,
                           user_item_cut_index=user_item_cut.index,
@@ -31,7 +46,7 @@ user_dict_ = recommend_NN(user_item_cut=user_item_cut,
                           metric = 'euclid',
                           inference=True)
 
-id_dict = pref_matrix.id_list.drop(index='user_total').to_dict()
+# id_dict = pref_matrix.id_list.drop(index='user_total').to_dict()
 
 # подрубаемся к базе и запихиваем туда рекомендации
 
