@@ -22,6 +22,7 @@ path_to_repo = str(path.parent.parent.absolute())
 import_path =  path_to_repo + '/data/raw/'
 export_path = path_to_repo + '/data/interim'
 
+print(import_path)
 goods = pd.read_excel(import_path+'goods.xlsx')
 
 # goods = goods.loc[goods.reason == 'Приемка']
