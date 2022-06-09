@@ -27,9 +27,10 @@ vygruz = pd.read_excel(os.path.join(path__, 'goods.xlsx'))
 vygruz = vygruz.loc[vygruz.id != '']
 vygruz = vygruz.loc[~vygruz.id.isnull()]
 vygruz = vygruz[vygruz['id'].str.isnumeric()]
+vygruz = vygruz.loc[(~vygruz['Пол'].isna())]
 vygruz['id'] = vygruz.id.replace('', np.nan, regex=False).astype(int)
 vygruz.loc[:, 'id_s'] = vygruz.id.astype(str)
-stock = vygruz.loc[vygruz.reason == 'Приемка'].groupby(['brand','Группа категорий']).agg({'id_s': list})
+stock = vygruz.loc[(vygruz.reason == 'Приемка')].groupby(['brand','Группа категорий']).agg({'id_s': list})
 stock.loc[:,'brand_categ'] = [str(i) for i in stock.index]
 stock.set_index('brand_categ', inplace=True)
 id_dict = stock.to_dict()['id_s']

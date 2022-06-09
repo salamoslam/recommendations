@@ -11,10 +11,10 @@ def get_validation_plots(user_item_cut, user_item_old_cut, user_item_diff, k_s =
 
     results_euclid = pd.DataFrame(columns=[i for sub in [(f'euclid_mean_{metrics}_{k_s[j]}',
                                                           f'euclid_max_{metrics}_{k_s[j]}') for j in range(len(k_s))
-                                                         for metrics in ['precision', 'recall']] for i in sub])
+                                                         for metrics in ['precision', 'recall','ndcg']] for i in sub])
     results_cosine = pd.DataFrame(columns=[i for sub in [(f'cosine_mean_{metrics}_{k_s[j]}',
                                                           f'cosine_max_{metrics}_{k_s[j]}') for j in range(len(k_s))
-                                                         for metrics in ['precision', 'recall']] for i in sub])
+                                                         for metrics in ['precision', 'recall','ndcg']] for i in sub])
     for metric in ['euclid', 'cosine']:
         for k in tqdm(range(5, range_), leave=True):
             user_dict = recommend_NN(user_item_old_cut, user_item_diff.index, metric=metric, k=k, method=method)
@@ -31,4 +31,5 @@ def get_validation_plots(user_item_cut, user_item_old_cut, user_item_diff, k_s =
 
                 results_cosine.loc[k] = [i for sub in a for i in sub]
     results1 = results_euclid.join(results_cosine)
-    return results1.plot(subplots=True, figsize=(20, 50))
+    return results1
+        # .plot(subplots=True, figsize=(20, 50))

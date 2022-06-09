@@ -15,6 +15,7 @@ from itertools import islice
 from pymongo import MongoClient
 import certifi
 import numpy as np
+import pandas as pd
 
 def take(n, iterable):
     "Return first n items of the iterable as a list"
@@ -31,8 +32,8 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             user_item_test = user_item_cut.loc[user_item_cut.index.isin(user_item_cut_index)]
         elif metric == 'cosine':
             user_item_cut_normalized = user_item_cut.div(user_item_cut.sum(axis=1), axis=0)
-            user_item_train_norm = user_item_cut_normalized.loc[~user_item_cut_normalized.index.isin(user_item_cut_index)]
-            user_item_test_norm = user_item_cut_normalized.loc[user_item_cut_normalized.index.isin(user_item_cut_index)]
+            user_item_train = user_item_cut_normalized.loc[~user_item_cut_normalized.index.isin(user_item_cut_index)]
+            user_item_test = user_item_cut_normalized.loc[user_item_cut_normalized.index.isin(user_item_cut_index)]
             del user_item_cut_normalized
 
     if method == 'faiss':
@@ -49,8 +50,8 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
 #             index.add(user_item_array)
         elif metric == 'cosine':
             index = faiss.IndexFlatIP(user_item_cut.shape[1], )
-            user_item_array = np.array(user_item_train_norm).astype('float32')
-            user_item_array_test = np.array(user_item_test_norm).astype('float32')
+            user_item_array = np.array(user_item_train).astype('float32')
+            user_item_array_test = np.array(user_item_test).astype('float32')
 
             if str(user_item_array.flags)[17:22] == 'False' or str(user_item_array_test.flags)[17:22] == 'False':
                 user_item_array = user_item_array.copy(order='C')
@@ -73,6 +74,7 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             dist, ind = index.search(searched_user, k=k)
             # оставляю только соседей
             ind_reshape = ind.reshape((k,))
+            dist_reshape = dist.reshape((k,))
             #         ind_reshape = ind_reshape[ind_reshape != searched_user_index]
             # нахожу соседей в юзер-айтем матрице, оставляю только столбы с ненулевыми элементами
             found_neighbours = user_item_cut.iloc[ind_reshape, :]
@@ -86,6 +88,13 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             found_neighbours.loc['recommended'] = found_neighbours.drop(index=['recommended_bin',
                                                                                'preferred_bin',
                                                                                'preferred_exact']).mean(axis=0)
+#             found_neighbours.loc['recommended'] = found_neighbours.drop(index=['recommended_bin',
+#                                                                                'preferred_bin',
+#                                                                                'preferred_exact',
+#                                                                                ]).apply(lambda x:
+#                                                                                         np.average(x,
+#                                                                                                    weights=dist_reshape[1:]),
+#                                                                                         axis = 0)
 
             # found_neighbours = found_neighbours.T
             # found_neighbours[found_neighbours.loc[:,'recommended_bin'] > 0].T
@@ -95,8 +104,23 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
             user_dict[searched_user_clid]['recommends_binary'] = found_neighbours.loc['recommended_bin']
             user_dict[searched_user_clid]['preferred_binary'] = found_neighbours.loc['preferred_bin']
             user_dict[searched_user_clid]['preferred_exact'] = found_neighbours.loc['preferred_exact']
+            user_dict[searched_user_clid]['distance'] = dist_reshape
 
     if method == 'hardcode':
+        if metric == 'euclid':
+            if inference:
+                user_item_train = user_item_cut
+            else:
+                user_item_train = user_item_cut.loc[~user_item_cut.index.isin(user_item_cut_index)]
+                user_item_test = user_item_cut.loc[user_item_cut.index.isin(user_item_cut_index)]
+        elif metric == 'cosine':
+            user_item_cut_normalized = user_item_cut.div(user_item_cut.sum(axis=1), axis=0)
+            if inference:
+                user_item_train = user_item_cut_normalized
+            else:
+                user_item_train = user_item_cut_normalized.loc[~user_item_cut_normalized.index.isin(user_item_cut_index)]
+                user_item_test = user_item_cut_normalized.loc[user_item_cut_normalized.index.isin(user_item_cut_index)]
+            del user_item_cut_normalized
 
         user_dict = {}
         for user_ in user_item_cut_index:
@@ -114,9 +138,11 @@ def recommend_NN(user_item_cut, user_item_cut_index, metric='euclid', k=10, meth
 
             found_neighbours = user_item_train.loc[
                 take(k, {k: v for k, v in sorted(nn.items(), key=lambda item: item[1])})]
+            distances = pd.Series(nn.values()).sort_values(ascending=True).head(k).to_list()
             recommends = found_neighbours.mean(axis=0)
             user_dict[user_] = {}
             user_dict[user_]['recommends'] = recommends
             user_dict[user_]['preferred_binary'] = (user_item_cut.loc[user_] > 0).astype(int)
             user_dict[user_]['preferred_exact'] = user_item_cut.loc[user_]
+            user_dict[user_]['distance'] = distances
     return user_dict

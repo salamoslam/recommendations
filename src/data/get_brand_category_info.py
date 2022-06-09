@@ -1,20 +1,31 @@
 import pandas as pd
 import numpy as np
 import os
+import datetime
+from pathlib import Path
+import sys
 
 path_to_repo = '/Users/kuznetsovnikita'
-def get_brand_category_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'):
+def get_brand_category_info(to_csv = True,
+                            path_to_repo = str(Path(sys.path[0]).parent.parent.absolute()),
+                            days_back = 0):
     "делает табличку с инфой по бренду-группе категорий, если to_csv = True, запихивает csv с этой таблицей в data-interim,\
     можно задать путь до локального репозитория"
 
-    path_to_repo = '/Users/kuznetsovnikita'
-    import_path = path_to_repo + '/recommendations/data/raw/'
-    export_path = path_to_repo + '/recommendations/data/interim'
+    import_path = path_to_repo + '/data/raw/'
+    export_path = path_to_repo + '/data/interim'
 
     df_heat = pd.read_csv(import_path + 'heats.csv')
     cart = pd.read_csv(import_path + 'cart.csv')
     users = pd.read_csv(import_path + 'users.csv')
     vygruz = pd.read_excel(import_path + 'goods.xlsx').iloc[:, 1:]
+
+    # подбираем время
+    df_heat.timestamp = pd.to_datetime(df_heat.timestamp, format='%Y-%m-%d %H:%M:%S')
+    df_heat = df_heat.loc[df_heat.timestamp < datetime.datetime.now() - datetime.timedelta(days=days_back)]
+
+    cart.timestamp = pd.to_datetime(cart.timestamp, format='%Y-%m-%d %H:%M:%S')
+    cart = cart.loc[cart.timestamp < datetime.datetime.now() - datetime.timedelta(days=days_back)]
 
     vygruz = vygruz.loc[~vygruz.id.isnull()]
     vygruz = vygruz[vygruz['id'].str.isnumeric()]
@@ -34,7 +45,8 @@ def get_brand_category_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'
                                                                        'Группа категорий']).agg({'id': 'count',
                                                                                                  'id_s': list,
                                                                                                  'Цена шоурум': [
-                                                                                                     np.mean, min,
+                                                                                                     np.mean,
+                                                                                                     min,
                                                                                                      max]})
     brand_categ_info.columns = [' '.join(col).strip() for col in brand_categ_info.columns.values]
     # .loc[vygruz.id_s.isin(df_heat.product_id.unique())] # для включения только тех групп, что просмотрены
@@ -52,3 +64,11 @@ def get_brand_category_info(to_csv = True, path_to_repo='/Users/kuznetsovnikita'
     if to_csv:
         brand_categ_info.to_csv(os.path.join(export_path,'brand_category_info.csv'))
     return brand_categ_info
+
+export_path = str(Path(sys.path[0]).parent.parent) + '/data/interim'
+
+brand_category_info = get_brand_category_info(days_back=0, to_csv=False)
+brand_category_info.to_csv(os.path.join(export_path,'brand_category_info.csv'))
+
+brand_category_info_old = get_brand_category_info(days_back=30, to_csv=False)
+brand_category_info_old.to_csv(os.path.join(export_path,'brand_category_info_old.csv'))

@@ -86,3 +86,19 @@ vygruz.rename(columns=new_names, inplace=True)
 vygruz['selldate'] = pd.to_datetime(vygruz['selldate'], format='%d.%m.%Y')
 vygruz['cumdate'] = pd.to_datetime(vygruz['cumdate'], format='%d.%m.%Y')
 vygruz.to_excel(os.path.join(path,r'goods.xlsx'))
+
+#запихиваем выгрузку в базу
+# vygruz.drop(columns=['Unnamed: 0'], inplace = True)
+vygruz.rename(columns={'id':'_id'}, inplace = True)
+
+
+vygruz.selldate = vygruz.selldate.fillna(datetime(1970,1,1))
+vygruz.cumdate = vygruz.cumdate.fillna(datetime(1970,1,1))
+
+
+vygruz_collection = list(vygruz.T.to_dict().values())
+
+
+vygruz_col = current_db['vygruz_col']
+vygruz_col.delete_many({})
+vygruz_col.insert_many(vygruz_collection)
