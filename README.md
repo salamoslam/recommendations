@@ -1,7 +1,8 @@
 msu_diploma
 ==============================
 
-recommendations system for consignment store in Moscow
+Hi! I tried to build recommendations system for consignment store in Moscow
+to see main report and conslusions go to - reports -> диплом.pdf
 
 Project Organization
 ------------
