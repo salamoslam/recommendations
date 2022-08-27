@@ -38,6 +38,7 @@ def get_new_pref_matrix(
     # goods = goods.loc[goods.reason == 'Приемка']
     goods = goods.loc[goods.id != '']
     goods = goods.loc[~goods.id.isnull()]
+    goods.id = goods.id.astype(str).str.slice(start = 0, stop = -2)
     goods = goods[goods['id'].str.isnumeric()]
     goods['id'] = goods.id.replace('', np.nan, regex=False).astype(str)
 

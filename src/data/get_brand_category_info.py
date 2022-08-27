@@ -28,6 +28,7 @@ def get_brand_category_info(to_csv = True,
     cart = cart.loc[cart.timestamp < datetime.datetime.now() - datetime.timedelta(days=days_back)]
 
     vygruz = vygruz.loc[~vygruz.id.isnull()]
+    vygruz.id = vygruz.id.astype(str).str.slice(start = 0, stop = -2)
     vygruz = vygruz[vygruz['id'].str.isnumeric()]
     vygruz.loc[:, ['id_s']] = vygruz.id.astype(str)
     # print(vygruz.info())
@@ -51,6 +52,7 @@ def get_brand_category_info(to_csv = True,
     brand_categ_info.columns = [' '.join(col).strip() for col in brand_categ_info.columns.values]
     # .loc[vygruz.id_s.isin(df_heat.product_id.unique())] # для включения только тех групп, что просмотрены
     brand_categ_info = brand_categ_info.loc[brand_categ_info['id count'] > 0].sort_values('id count', ascending=False)
+
     # суммарные просмотры всех вещей из категории+бренда
     brand_categ_info['total_views'] = brand_categ_info['id_s list'].apply(lambda x:
                                                                           df_heat.loc[df_heat.product_id.isin(x)][

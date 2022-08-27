@@ -6,7 +6,7 @@ from pathlib import Path
 import sys
 
 def get_users_info(to_csv = True,
-                   path_to_repo=str(Path(sys.path[0]).parent.parent.absolute()),
+                   path_to_repo=str(Path(sys.path[0]).parent.absolute()),
                    days_back = 0):
     "делает табличку с инфой по пользователям, если to_csv = True, запихивает csv с этой таблицей в data-interim,\
     можно задать путь до локального репозитория"
@@ -35,6 +35,7 @@ def get_users_info(to_csv = True,
     # vygruz.id = vygruz.id.replace(' ','',regex=True)
 
     vygruz = vygruz.loc[~vygruz.id.isnull()]
+    vygruz.id = vygruz.id.astype(str).str.slice(start = 0, stop = -2)
     vygruz = vygruz[vygruz['id'].str.isnumeric()]
     vygruz['id'] = vygruz.id.replace('', np.nan, regex=False).astype(int)
 
@@ -91,8 +92,8 @@ def get_users_info(to_csv = True,
 
 export_path = str(Path(sys.path[0]).parent.parent) + '/data/interim'
 
-users_info_old = get_users_info(days_back=30, to_csv=False)
+users_info_old = get_users_info(days_back=30, to_csv=False, path_to_repo=str(Path(sys.path[0]).parent.parent))
 users_info_old.to_csv(os.path.join(export_path,'users_info_old.csv'))
 
-users_info = get_users_info(days_back=0, to_csv=False)
+users_info = get_users_info(days_back=0, to_csv=False, path_to_repo=str(Path(sys.path[0]).parent.parent))
 users_info.to_csv(os.path.join(export_path,'users_info.csv'))
