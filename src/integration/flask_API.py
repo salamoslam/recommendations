@@ -8,6 +8,8 @@ import json
 import csv
 import io
 from urllib.parse import unquote
+from pathlib import Path
+from gradboost_inference import *
 
 application = Flask(__name__)
 # api = Api(application)
@@ -16,8 +18,9 @@ application = Flask(__name__)
 
 
 path_to_repo = '/Users/kuznetsovnikita'
+with open(str(Path(sys.path[0]).parent.parent)+'/src/data/mongodb_pass.txt', 'r') as file:
+    path2 = file.read()
 
-path2 = 'mongodb://shmzl:1tAiGCElvXSHXex1@cluster0-shard-00-00.vs2je.mongodb.net:27017,cluster0-shard-00-01.vs2je.mongodb.net:27017,cluster0-shard-00-02.vs2je.mongodb.net:27017/test?authSource=admin&replicaSet=atlas-16vb3u-shard-0&readPreference=primary&ssl=true'
 client = MongoClient(path2, tlsCAFile=certifi.where())
 current_db = client['spin_services']
 
@@ -93,6 +96,13 @@ def get_feed():
         string = csvfile.getvalue()
     return string
 
+
+@application.route('/get_new_rec/<string:clid>/<string:id>/<string:gender>')
+def get_gradboost_rec(clid, id, gender):
+
+    recommend_id_sorted_str = get_recommended_ids(clid = clid, id = id, gender=gender, current_db=current_db, path_to_repo = str(Path(sys.path[0]).parent.parent))
+
+    return recommend_id_sorted_str
 
 if __name__ == '__main__':
     application.run()
