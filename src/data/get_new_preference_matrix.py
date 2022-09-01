@@ -98,14 +98,3 @@ def get_new_pref_matrix(
     user_item = triple.pivot_table(index = 'ym_client_id', columns = 'brand_categ', aggfunc='sum', values = 'sum').fillna(0).astype('int16')
     return user_item, triple
 
-# подгружаем текущую юзер-айтем
-user_item, triple = get_new_pref_matrix()
-
-user_item.to_csv(os.path.join(export_path,'user_group_info.csv'))
-triple.to_csv(os.path.join(export_path,'user_group_melt.csv'))
-
-# подгружаем старую юзер-айтем
-user_item, triple = get_new_pref_matrix(days_back=30)
-
-user_item.to_csv(os.path.join(export_path,'user_group_info_old.csv'))
-triple.to_csv(os.path.join(export_path,'user_group_melt_old.csv'))

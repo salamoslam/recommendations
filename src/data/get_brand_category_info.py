@@ -4,6 +4,7 @@ import os
 import datetime
 from pathlib import Path
 import sys
+import math
 
 path_to_repo = '/Users/kuznetsovnikita'
 def get_brand_category_info(to_csv = True,
@@ -33,6 +34,7 @@ def get_brand_category_info(to_csv = True,
     vygruz.loc[:, ['id_s']] = vygruz.id.astype(str)
     # print(vygruz.info())
     vygruz['id'] = vygruz.id.replace('', np.nan, regex=False).astype(int)
+    vygruz['id_info'] = list(zip(vygruz.id_s, vygruz['Цена шоурум'], vygruz['Пол']))
     cart = cart.dropna(subset=['product_id'])
     cart.loc[:, ['product_id']] = cart.product_id.astype(int)
 
@@ -43,13 +45,33 @@ def get_brand_category_info(to_csv = True,
     # ready table two
     # то же самое по группам бренд-группа категорий (сколько товаров, сколько просмотров, когда)
     brand_categ_info = vygruz.loc[vygruz.reason == 'Приемка'].groupby(['brand',
-                                                                       'Группа категорий']).agg({'id': 'count',
-                                                                                                 'id_s': list,
-                                                                                                 'Цена шоурум': [
-                                                                                                     np.mean,
-                                                                                                     min,
-                                                                                                     max]})
+                                                                        'Группа категорий']).agg({'id': 'count',
+                                                                                                  'id_s': list,
+                                                                                                  'id_info':[lambda x:
+                                                                                                  [j[0] for j in sorted(
+                                                                                                      [i for i in list(x) if not math.isnan(i[1]) and i[2] in ['male','Unisex']],
+                                                                                                      key=lambda item: item[1])],
+                                                                                                             lambda x:
+                                                                                                  [j[0] for j in sorted(
+                                                                                                      [i for i in list(x) if not math.isnan(i[1]) and i[2] in ['female','Unisex']],
+                                                                                                      key=lambda item: item[1])],
+                                                                                                             lambda x:
+                                                                                                  [j[0] for j in sorted(
+                                                                                                      [i for i in list(x) if not math.isnan(i[1]) and type(i[2]) == str],
+                                                                                                      key=lambda item: item[1])]
+                                                                                                             ],# после группировки по бренду-категории сортируем по возрастанию по цене, обрезаем по полам и берем только штрихкод
+                                                                                                  'Цена шоурум': [
+                                                                                                      np.mean,
+                                                                                                      min,
+                                                                                                      max]})
     brand_categ_info.columns = [' '.join(col).strip() for col in brand_categ_info.columns.values]
+    brand_categ_info.rename(columns={
+        'id_info <lambda_0>':'id_male',
+        'id_info <lambda_1>':'id_female',
+        'id_info <lambda_2>': 'id_full'
+    }, inplace=True)
+
+
     # .loc[vygruz.id_s.isin(df_heat.product_id.unique())] # для включения только тех групп, что просмотрены
     brand_categ_info = brand_categ_info.loc[brand_categ_info['id count'] > 0].sort_values('id count', ascending=False)
 
@@ -63,14 +85,7 @@ def get_brand_category_info(to_csv = True,
     brand_categ_info['view_times'] = brand_categ_info['id_s list'].apply(lambda x:
                                                                          df_heat.loc[df_heat.product_id.isin(x)]['timestamp'].to_list())
     # print(brand_categ_info)
+    brand_categ_info.loc[:,'brand_categ'] = np.array(brand_categ_info.index)
     if to_csv:
         brand_categ_info.to_csv(os.path.join(export_path,'brand_category_info.csv'))
     return brand_categ_info
-
-export_path = str(Path(sys.path[0]).parent.parent) + '/data/interim'
-
-brand_category_info = get_brand_category_info(days_back=0, to_csv=False)
-brand_category_info.to_csv(os.path.join(export_path,'brand_category_info.csv'))
-
-brand_category_info_old = get_brand_category_info(days_back=30, to_csv=False)
-brand_category_info_old.to_csv(os.path.join(export_path,'brand_category_info_old.csv'))

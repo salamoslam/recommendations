@@ -86,14 +86,9 @@ def get_users_info(to_csv = True,
                                             ].groupby('ym_client_id').agg({'product_id': [list, 'count']})[
         'product_id']['count']
     users_info['wish_quan'] = users_info.wish_quan.fillna(0)
+
+    users_info.index = users_info.index.astype(str)
     if to_csv:
         users_info.to_csv(os.path.join(export_path,r'users_info.csv'))
     return users_info
 
-export_path = str(Path(sys.path[0]).parent.parent) + '/data/interim'
-
-users_info_old = get_users_info(days_back=30, to_csv=False, path_to_repo=str(Path(sys.path[0]).parent.parent))
-users_info_old.to_csv(os.path.join(export_path,'users_info_old.csv'))
-
-users_info = get_users_info(days_back=0, to_csv=False, path_to_repo=str(Path(sys.path[0]).parent.parent))
-users_info.to_csv(os.path.join(export_path,'users_info.csv'))
